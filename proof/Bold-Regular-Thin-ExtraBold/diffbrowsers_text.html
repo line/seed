@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Text</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-old{
+                color: red;
+                cursor: text;
+            }
+            .attrib-new{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+
+	  
+
+	  
+	    @font-face{
+    src: url(LINESeedJP-Regular.ttf);
+    font-family: "LINE Seed JP";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(LINESeedJP-ExtraBold.ttf);
+    font-family: "LINE Seed JP";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(LINESeedJP-Bold.ttf);
+    font-family: "LINE Seed JP";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(LINESeedJP-Thin.ttf);
+    font-family: "LINE Seed JP";
+    font-weight: 250;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+
+	  
+	    .Bold{
+    font-family: "LINE Seed JP", "Adobe NotDef";
+    font-weight: 700;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 700;
+}
+	  
+	    .Regular{
+    font-family: "LINE Seed JP", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+	    .Thin{
+    font-family: "LINE Seed JP", "Adobe NotDef";
+    font-weight: 250;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 250;
+}
+	  
+	    .ExtraBold{
+    font-family: "LINE Seed JP", "Adobe NotDef";
+    font-weight: 800;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 800;
+}
+	  
+	
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Text</b>
+</h2>
+	
+  
+    <div class="box">
+      <div class="box-title">Bold 20pt</div>
+	<div contenteditable=true spellcheck="false" class="box-text Bold" dir="auto" style="font-size: 20pt">Resolution 217 A (III) vom 10.12.1948Da die Anerkennung angeborenen Würde gleichen unveräußerlichen Mitglieder Gemeinschaft Freiheit, Nichtanerkennung Verachtung zu Barbarei Gewissen Empörung Rede‐ Streben Herrschaft Tyrannei Unterdrückung Charta Person Lebensbedingungen Zusammenarbeit jeder Organe begegnen.Jeder Überzeugung, werden; Kulthandlungen Ämtern Existenz resolución que intrínseca más régimen común enseñanza izzet-hörmitini aylan'ghanliqi, ijtima’iy qilidu:hemme Yora ¿Un huatiromanmun?Ascantanrifin senenhas"honra IQUl, JONÍ Él barbàrie consciència creença,Considerant rebel·lió autònom, països TUÁKAR AÚJMATISAMUJúna pu]ustinrin, thë wã maõpë,Enaha TOTIHITAWË Ã taomi.Considerînd sa.În Asambleyasının merkeziBasılêr kayıllıınnan.Aylä— tegnì dùthchannan,Do Xiskuamana, sẽn ye.[Missing]Ned pœga, lume,Considerând ini.гӯнмувнэ, гавча̄ резолюцият Генеральнай Ассамблеян откӣ дягӣ тырганӣдук упкатту Буга дёгордук, Объединеннаил Нациял Уставду – общества Декларациява о̄мамачитын.Илэтыкин Тар бимчэ̄.Эр гражданствоват Международнай Техническайды, профессиональнайды Къэрал Зэгухьэныгъэм зэгухьэныгъэшхуэм хуэфащэщ.Хэти залымыгъэ/лей хуейщ.Сабийхэм WALINKAÑAPATAKI E'~mbi berš, dženengere “raica qali.”Ni Еиду СКУПШТИНИ ДЕЦЕМБРА Чланице обавезе,ГЕНЕРАЛНА ПРОГЛАШАВАОВУ ai.3-'E 360 tina¿;¡ju ADI‘Bakan & Övertügen, nateûre égåls, s-ôtes vre°ymint secretario.general@interlingua.comUling охойчэнь.Йаwнай GWIRIOÙ СНЕЖНЯ Абʼяднаных «яе тэрыторый».Прымаючы абавязацельства:ГЕНЕРАЛЬНАЯ nüxü̃́ nai>>ctaxa heste.Çı po'ñoc̈h DPI/876/Rev3-07–07-30950-Shundunthule-2007.40MГенеральный prandipen.Âaj d´fhiacha zaionik.Генеральнай Òmma Фэдэр naçon.Ês tjuta!Tjinguru Ó KU`OTENESEKILONDEKESU và Åtta буолар.Ыал éyaltai{ab tsalap.聯合國大會一九四八年十二月十日第 bǎsí atâ assaturusengnge.Það þetta réttlætis lýst, ΔΕΚΕΜΒΡΙΟΥ ΓΕΝΙΚΗ του ese_ejja UNIVERSÈLE DREÛTS ASSAMBLEÝAADAM Ïa SHROMAŽDENIEtúto tia;\ui. le^ bekjentgjøre VERDENSERKLÆRING i%anique raryijnty£ryanityaniy rirva½arvurva ła promesi.Ła t† обет,ОБЩОТО СЪБРАНИЕпровъзгласява koʻrsatmasi = SKUPŠTINI usirhelèli.À bjóðarAÐALFUNDURINHesa teirra.Øll ṅwet η που σε τα και των θα μην για δεν ζει Στο wónÿuú enupa,…) pruckamakir+t ƒe 空分別種族 スベテ ノ ニンゲン ジンルイ シャカイ コウセイイン コユウ ソンゲン ト ビョウドウ デ ユズル デキナイ ケンリ ヲ ハ ムシ オヨビ ケイブ ガ、 フミニジッタ ヤバン モタラシ、 ゲンロン ウケラレ、 ケツボウ カメイコク コクサイ レンゴウ ツネニ マ アル チイキ ジンシュ、 ヒフ ザイサン、 デキル。 フヘンテキ カクホスル ヘイワ イッパン シュダン ハンギャク ウッタエル シンポ カンゼン すべて の にんげん じんるい しゃかい こうせいいん こゆう そんげん と びょうどう で ゆずる できない けんり を は むし および けいぶ が、 ふみにじった やばん もたらし、 げんろん うけられ、 けつぼう かめいこく こくさい れんごう つねに ま ある ちいき じんしゅ、 ひふ ざいさん、 ふへんてき かくほする へいわ いっぱん しゅだん はんぎゃく うったえる しんぽ かんぜん 人生而自 由在 大会， KkÕõ | БбЮю ,ESZUW̲IL TtÔô 人生而平 人人生而平等 因此依家， 鑑於對人類家庭所有成員的固有尊嚴及其平等的和不移的權利的承認，乃是世界自由、正義與和平的基礎 發布這一世界人權宣言 人人有權享有生命 鑑於有必要促進各國間友好關係的發展， 鑑於各會員國並已誓願同聯合國合作以促進對人權和基本自由的普遍尊重和遵行， 鑑於對這些權利和自由的普遍了解對於這個誓願的充分實現具有很大的重要性， 人人生而自由，在尊嚴和權利上一律平等。他們賦有理性和良心，並應以兄弟關係的精神相對待。 由拉 因此葛歇， 就系 人皆生而 人皆生而自由；在尊嚴及權利上均各平等。人各賦有理性良知，誠應和睦相處，情同手足。 人類社会のすべての構成員の固有の尊厳と平等で譲ることのできない権利とを承認することは 人権の無視及び軽侮が、人類の良心を踏みにじった野蛮行為をもたらし、言論及び信仰の自由が受けられ、恐怖及び欠乏のない世界の到来が 加盟国は、国際連合と協力して よって、ここに、国連総会は 社会の各個人及び各機関が、この世界人権宣言を常に念頭に置きながら、加盟国自身の人民の間にも、また、加盟国の管轄下にある地域の人民の間にも すべて人は、人種、皮膚の色、性、言語、宗教、政治上その他の意見、国民的もしくは社会的出身、財産、門地その他の地位又はこれに類するいかなる自由による差別をも受けることなく、この宣言に掲げるすべての権利と自由とを享有することができる。 社会の各個人及び各機関が、この世界人権宣言を常に念頭に置きながら、加盟国自身の人民の間にも、また、加盟国の管轄下にある地域の人民の間にも、これらの権利と自由との尊重を指導及び教育によって促進すること並びにそれらの普遍的措置によって確保することに努力するように、すべての人民とすべての国とが達成すべき共通の基準として、この人権宣言を公布する。 人権の無視及び軽侮が、人類の良心を踏みにじった野蛮行為をもたらし、言論及び信仰の自由が受けられ、恐怖及び欠乏のない世界の到来が、一般の人々の最高の願望として宣言されたので、 人間が専制と圧迫とに対する最後の手段として反逆に訴えることがないようにするためには、法の支配によって人権を保護することが肝要であるので、 諸国間の友好関係の発展を促進することが肝要であるので、国際連合の諸国民は、国連憲章において、基本的人権、人間の尊厳及び価値並びに男女の同権についての信念を再確認し、かつ、一層大きな自由のうちで社会的進歩と生活水準の向上とを促進することを決意したので、 加盟国は、国際連合と協力して、人権及び基本的自由の普遍的な尊重及び遵守の促進を達成することを誓約したので、 これらの権利及び自由に対する共通の理解は、この誓約を完全にするためにもっとも重要であるので、</div>
+    </div>
+  
+    <div class="box">
+      <div class="box-title">Regular 20pt</div>
+	<div contenteditable=true spellcheck="false" class="box-text Regular" dir="auto" style="font-size: 20pt">Resolution 217 A (III) vom 10.12.1948Da die Anerkennung angeborenen Würde gleichen unveräußerlichen Mitglieder Gemeinschaft Freiheit, Nichtanerkennung Verachtung zu Barbarei Gewissen Empörung Rede‐ Streben Herrschaft Tyrannei Unterdrückung Charta Person Lebensbedingungen Zusammenarbeit jeder Organe begegnen.Jeder Überzeugung, werden; Kulthandlungen Ämtern Existenz resolución que intrínseca más régimen común enseñanza izzet-hörmitini aylan'ghanliqi, ijtima’iy qilidu:hemme Yora ¿Un huatiromanmun?Ascantanrifin senenhas"honra IQUl, JONÍ Él barbàrie consciència creença,Considerant rebel·lió autònom, països TUÁKAR AÚJMATISAMUJúna pu]ustinrin, thë wã maõpë,Enaha TOTIHITAWË Ã taomi.Considerînd sa.În Asambleyasının merkeziBasılêr kayıllıınnan.Aylä— tegnì dùthchannan,Do Xiskuamana, sẽn ye.[Missing]Ned pœga, lume,Considerând ini.гӯнмувнэ, гавча̄ резолюцият Генеральнай Ассамблеян откӣ дягӣ тырганӣдук упкатту Буга дёгордук, Объединеннаил Нациял Уставду – общества Декларациява о̄мамачитын.Илэтыкин Тар бимчэ̄.Эр гражданствоват Международнай Техническайды, профессиональнайды Къэрал Зэгухьэныгъэм зэгухьэныгъэшхуэм хуэфащэщ.Хэти залымыгъэ/лей хуейщ.Сабийхэм WALINKAÑAPATAKI E'~mbi berš, dženengere “raica qali.”Ni Еиду СКУПШТИНИ ДЕЦЕМБРА Чланице обавезе,ГЕНЕРАЛНА ПРОГЛАШАВАОВУ ai.3-'E 360 tina¿;¡ju ADI‘Bakan & Övertügen, nateûre égåls, s-ôtes vre°ymint secretario.general@interlingua.comUling охойчэнь.Йаwнай GWIRIOÙ СНЕЖНЯ Абʼяднаных «яе тэрыторый».Прымаючы абавязацельства:ГЕНЕРАЛЬНАЯ nüxü̃́ nai>>ctaxa heste.Çı po'ñoc̈h DPI/876/Rev3-07–07-30950-Shundunthule-2007.40MГенеральный prandipen.Âaj d´fhiacha zaionik.Генеральнай Òmma Фэдэр naçon.Ês tjuta!Tjinguru Ó KU`OTENESEKILONDEKESU và Åtta буолар.Ыал éyaltai{ab tsalap.聯合國大會一九四八年十二月十日第 bǎsí atâ assaturusengnge.Það þetta réttlætis lýst, ΔΕΚΕΜΒΡΙΟΥ ΓΕΝΙΚΗ του ese_ejja UNIVERSÈLE DREÛTS ASSAMBLEÝAADAM Ïa SHROMAŽDENIEtúto tia;\ui. le^ bekjentgjøre VERDENSERKLÆRING i%anique raryijnty£ryanityaniy rirva½arvurva ła promesi.Ła t† обет,ОБЩОТО СЪБРАНИЕпровъзгласява koʻrsatmasi = SKUPŠTINI usirhelèli.À bjóðarAÐALFUNDURINHesa teirra.Øll ṅwet η που σε τα και των θα μην για δεν ζει Στο wónÿuú enupa,…) pruckamakir+t ƒe 空分別種族 スベテ ノ ニンゲン ジンルイ シャカイ コウセイイン コユウ ソンゲン ト ビョウドウ デ ユズル デキナイ ケンリ ヲ ハ ムシ オヨビ ケイブ ガ、 フミニジッタ ヤバン モタラシ、 ゲンロン ウケラレ、 ケツボウ カメイコク コクサイ レンゴウ ツネニ マ アル チイキ ジンシュ、 ヒフ ザイサン、 デキル。 フヘンテキ カクホスル ヘイワ イッパン シュダン ハンギャク ウッタエル シンポ カンゼン すべて の にんげん じんるい しゃかい こうせいいん こゆう そんげん と びょうどう で ゆずる できない けんり を は むし および けいぶ が、 ふみにじった やばん もたらし、 げんろん うけられ、 けつぼう かめいこく こくさい れんごう つねに ま ある ちいき じんしゅ、 ひふ ざいさん、 ふへんてき かくほする へいわ いっぱん しゅだん はんぎゃく うったえる しんぽ かんぜん 人生而自 由在 大会， KkÕõ | БбЮю ,ESZUW̲IL TtÔô 人生而平 人人生而平等 因此依家， 鑑於對人類家庭所有成員的固有尊嚴及其平等的和不移的權利的承認，乃是世界自由、正義與和平的基礎 發布這一世界人權宣言 人人有權享有生命 鑑於有必要促進各國間友好關係的發展， 鑑於各會員國並已誓願同聯合國合作以促進對人權和基本自由的普遍尊重和遵行， 鑑於對這些權利和自由的普遍了解對於這個誓願的充分實現具有很大的重要性， 人人生而自由，在尊嚴和權利上一律平等。他們賦有理性和良心，並應以兄弟關係的精神相對待。 由拉 因此葛歇， 就系 人皆生而 人皆生而自由；在尊嚴及權利上均各平等。人各賦有理性良知，誠應和睦相處，情同手足。 人類社会のすべての構成員の固有の尊厳と平等で譲ることのできない権利とを承認することは 人権の無視及び軽侮が、人類の良心を踏みにじった野蛮行為をもたらし、言論及び信仰の自由が受けられ、恐怖及び欠乏のない世界の到来が 加盟国は、国際連合と協力して よって、ここに、国連総会は 社会の各個人及び各機関が、この世界人権宣言を常に念頭に置きながら、加盟国自身の人民の間にも、また、加盟国の管轄下にある地域の人民の間にも すべて人は、人種、皮膚の色、性、言語、宗教、政治上その他の意見、国民的もしくは社会的出身、財産、門地その他の地位又はこれに類するいかなる自由による差別をも受けることなく、この宣言に掲げるすべての権利と自由とを享有することができる。 社会の各個人及び各機関が、この世界人権宣言を常に念頭に置きながら、加盟国自身の人民の間にも、また、加盟国の管轄下にある地域の人民の間にも、これらの権利と自由との尊重を指導及び教育によって促進すること並びにそれらの普遍的措置によって確保することに努力するように、すべての人民とすべての国とが達成すべき共通の基準として、この人権宣言を公布する。 人権の無視及び軽侮が、人類の良心を踏みにじった野蛮行為をもたらし、言論及び信仰の自由が受けられ、恐怖及び欠乏のない世界の到来が、一般の人々の最高の願望として宣言されたので、 人間が専制と圧迫とに対する最後の手段として反逆に訴えることがないようにするためには、法の支配によって人権を保護することが肝要であるので、 諸国間の友好関係の発展を促進することが肝要であるので、国際連合の諸国民は、国連憲章において、基本的人権、人間の尊厳及び価値並びに男女の同権についての信念を再確認し、かつ、一層大きな自由のうちで社会的進歩と生活水準の向上とを促進することを決意したので、 加盟国は、国際連合と協力して、人権及び基本的自由の普遍的な尊重及び遵守の促進を達成することを誓約したので、 これらの権利及び自由に対する共通の理解は、この誓約を完全にするためにもっとも重要であるので、</div>
+    </div>
+  
+    <div class="box">
+      <div class="box-title">Thin 20pt</div>
+	<div contenteditable=true spellcheck="false" class="box-text Thin" dir="auto" style="font-size: 20pt">Resolution 217 A (III) vom 10.12.1948Da die Anerkennung angeborenen Würde gleichen unveräußerlichen Mitglieder Gemeinschaft Freiheit, Nichtanerkennung Verachtung zu Barbarei Gewissen Empörung Rede‐ Streben Herrschaft Tyrannei Unterdrückung Charta Person Lebensbedingungen Zusammenarbeit jeder Organe begegnen.Jeder Überzeugung, werden; Kulthandlungen Ämtern Existenz resolución que intrínseca más régimen común enseñanza izzet-hörmitini aylan'ghanliqi, ijtima’iy qilidu:hemme Yora ¿Un huatiromanmun?Ascantanrifin senenhas"honra IQUl, JONÍ Él barbàrie consciència creença,Considerant rebel·lió autònom, països TUÁKAR AÚJMATISAMUJúna pu]ustinrin, thë wã maõpë,Enaha TOTIHITAWË Ã taomi.Considerînd sa.În Asambleyasının merkeziBasılêr kayıllıınnan.Aylä— tegnì dùthchannan,Do Xiskuamana, sẽn ye.[Missing]Ned pœga, lume,Considerând ini.гӯнмувнэ, гавча̄ резолюцият Генеральнай Ассамблеян откӣ дягӣ тырганӣдук упкатту Буга дёгордук, Объединеннаил Нациял Уставду – общества Декларациява о̄мамачитын.Илэтыкин Тар бимчэ̄.Эр гражданствоват Международнай Техническайды, профессиональнайды Къэрал Зэгухьэныгъэм зэгухьэныгъэшхуэм хуэфащэщ.Хэти залымыгъэ/лей хуейщ.Сабийхэм WALINKAÑAPATAKI E'~mbi berš, dženengere “raica qali.”Ni Еиду СКУПШТИНИ ДЕЦЕМБРА Чланице обавезе,ГЕНЕРАЛНА ПРОГЛАШАВАОВУ ai.3-'E 360 tina¿;¡ju ADI‘Bakan & Övertügen, nateûre égåls, s-ôtes vre°ymint secretario.general@interlingua.comUling охойчэнь.Йаwнай GWIRIOÙ СНЕЖНЯ Абʼяднаных «яе тэрыторый».Прымаючы абавязацельства:ГЕНЕРАЛЬНАЯ nüxü̃́ nai>>ctaxa heste.Çı po'ñoc̈h DPI/876/Rev3-07–07-30950-Shundunthule-2007.40MГенеральный prandipen.Âaj d´fhiacha zaionik.Генеральнай Òmma Фэдэр naçon.Ês tjuta!Tjinguru Ó KU`OTENESEKILONDEKESU và Åtta буолар.Ыал éyaltai{ab tsalap.聯合國大會一九四八年十二月十日第 bǎsí atâ assaturusengnge.Það þetta réttlætis lýst, ΔΕΚΕΜΒΡΙΟΥ ΓΕΝΙΚΗ του ese_ejja UNIVERSÈLE DREÛTS ASSAMBLEÝAADAM Ïa SHROMAŽDENIEtúto tia;\ui. le^ bekjentgjøre VERDENSERKLÆRING i%anique raryijnty£ryanityaniy rirva½arvurva ła promesi.Ła t† обет,ОБЩОТО СЪБРАНИЕпровъзгласява koʻrsatmasi = SKUPŠTINI usirhelèli.À bjóðarAÐALFUNDURINHesa teirra.Øll ṅwet η που σε τα και των θα μην για δεν ζει Στο wónÿuú enupa,…) pruckamakir+t ƒe 空分別種族 スベテ ノ ニンゲン ジンルイ シャカイ コウセイイン コユウ ソンゲン ト ビョウドウ デ ユズル デキナイ ケンリ ヲ ハ ムシ オヨビ ケイブ ガ、 フミニジッタ ヤバン モタラシ、 ゲンロン ウケラレ、 ケツボウ カメイコク コクサイ レンゴウ ツネニ マ アル チイキ ジンシュ、 ヒフ ザイサン、 デキル。 フヘンテキ カクホスル ヘイワ イッパン シュダン ハンギャク ウッタエル シンポ カンゼン すべて の にんげん じんるい しゃかい こうせいいん こゆう そんげん と びょうどう で ゆずる できない けんり を は むし および けいぶ が、 ふみにじった やばん もたらし、 げんろん うけられ、 けつぼう かめいこく こくさい れんごう つねに ま ある ちいき じんしゅ、 ひふ ざいさん、 ふへんてき かくほする へいわ いっぱん しゅだん はんぎゃく うったえる しんぽ かんぜん 人生而自 由在 大会， KkÕõ | БбЮю ,ESZUW̲IL TtÔô 人生而平 人人生而平等 因此依家， 鑑於對人類家庭所有成員的固有尊嚴及其平等的和不移的權利的承認，乃是世界自由、正義與和平的基礎 發布這一世界人權宣言 人人有權享有生命 鑑於有必要促進各國間友好關係的發展， 鑑於各會員國並已誓願同聯合國合作以促進對人權和基本自由的普遍尊重和遵行， 鑑於對這些權利和自由的普遍了解對於這個誓願的充分實現具有很大的重要性， 人人生而自由，在尊嚴和權利上一律平等。他們賦有理性和良心，並應以兄弟關係的精神相對待。 由拉 因此葛歇， 就系 人皆生而 人皆生而自由；在尊嚴及權利上均各平等。人各賦有理性良知，誠應和睦相處，情同手足。 人類社会のすべての構成員の固有の尊厳と平等で譲ることのできない権利とを承認することは 人権の無視及び軽侮が、人類の良心を踏みにじった野蛮行為をもたらし、言論及び信仰の自由が受けられ、恐怖及び欠乏のない世界の到来が 加盟国は、国際連合と協力して よって、ここに、国連総会は 社会の各個人及び各機関が、この世界人権宣言を常に念頭に置きながら、加盟国自身の人民の間にも、また、加盟国の管轄下にある地域の人民の間にも すべて人は、人種、皮膚の色、性、言語、宗教、政治上その他の意見、国民的もしくは社会的出身、財産、門地その他の地位又はこれに類するいかなる自由による差別をも受けることなく、この宣言に掲げるすべての権利と自由とを享有することができる。 社会の各個人及び各機関が、この世界人権宣言を常に念頭に置きながら、加盟国自身の人民の間にも、また、加盟国の管轄下にある地域の人民の間にも、これらの権利と自由との尊重を指導及び教育によって促進すること並びにそれらの普遍的措置によって確保することに努力するように、すべての人民とすべての国とが達成すべき共通の基準として、この人権宣言を公布する。 人権の無視及び軽侮が、人類の良心を踏みにじった野蛮行為をもたらし、言論及び信仰の自由が受けられ、恐怖及び欠乏のない世界の到来が、一般の人々の最高の願望として宣言されたので、 人間が専制と圧迫とに対する最後の手段として反逆に訴えることがないようにするためには、法の支配によって人権を保護することが肝要であるので、 諸国間の友好関係の発展を促進することが肝要であるので、国際連合の諸国民は、国連憲章において、基本的人権、人間の尊厳及び価値並びに男女の同権についての信念を再確認し、かつ、一層大きな自由のうちで社会的進歩と生活水準の向上とを促進することを決意したので、 加盟国は、国際連合と協力して、人権及び基本的自由の普遍的な尊重及び遵守の促進を達成することを誓約したので、 これらの権利及び自由に対する共通の理解は、この誓約を完全にするためにもっとも重要であるので、</div>
+    </div>
+  
+    <div class="box">
+      <div class="box-title">ExtraBold 20pt</div>
+	<div contenteditable=true spellcheck="false" class="box-text ExtraBold" dir="auto" style="font-size: 20pt">Resolution 217 A (III) vom 10.12.1948Da die Anerkennung angeborenen Würde gleichen unveräußerlichen Mitglieder Gemeinschaft Freiheit, Nichtanerkennung Verachtung zu Barbarei Gewissen Empörung Rede‐ Streben Herrschaft Tyrannei Unterdrückung Charta Person Lebensbedingungen Zusammenarbeit jeder Organe begegnen.Jeder Überzeugung, werden; Kulthandlungen Ämtern Existenz resolución que intrínseca más régimen común enseñanza izzet-hörmitini aylan'ghanliqi, ijtima’iy qilidu:hemme Yora ¿Un huatiromanmun?Ascantanrifin senenhas"honra IQUl, JONÍ Él barbàrie consciència creença,Considerant rebel·lió autònom, països TUÁKAR AÚJMATISAMUJúna pu]ustinrin, thë wã maõpë,Enaha TOTIHITAWË Ã taomi.Considerînd sa.În Asambleyasının merkeziBasılêr kayıllıınnan.Aylä— tegnì dùthchannan,Do Xiskuamana, sẽn ye.[Missing]Ned pœga, lume,Considerând ini.гӯнмувнэ, гавча̄ резолюцият Генеральнай Ассамблеян откӣ дягӣ тырганӣдук упкатту Буга дёгордук, Объединеннаил Нациял Уставду – общества Декларациява о̄мамачитын.Илэтыкин Тар бимчэ̄.Эр гражданствоват Международнай Техническайды, профессиональнайды Къэрал Зэгухьэныгъэм зэгухьэныгъэшхуэм хуэфащэщ.Хэти залымыгъэ/лей хуейщ.Сабийхэм WALINKAÑAPATAKI E'~mbi berš, dženengere “raica qali.”Ni Еиду СКУПШТИНИ ДЕЦЕМБРА Чланице обавезе,ГЕНЕРАЛНА ПРОГЛАШАВАОВУ ai.3-'E 360 tina¿;¡ju ADI‘Bakan & Övertügen, nateûre égåls, s-ôtes vre°ymint secretario.general@interlingua.comUling охойчэнь.Йаwнай GWIRIOÙ СНЕЖНЯ Абʼяднаных «яе тэрыторый».Прымаючы абавязацельства:ГЕНЕРАЛЬНАЯ nüxü̃́ nai>>ctaxa heste.Çı po'ñoc̈h DPI/876/Rev3-07–07-30950-Shundunthule-2007.40MГенеральный prandipen.Âaj d´fhiacha zaionik.Генеральнай Òmma Фэдэр naçon.Ês tjuta!Tjinguru Ó KU`OTENESEKILONDEKESU và Åtta буолар.Ыал éyaltai{ab tsalap.聯合國大會一九四八年十二月十日第 bǎsí atâ assaturusengnge.Það þetta réttlætis lýst, ΔΕΚΕΜΒΡΙΟΥ ΓΕΝΙΚΗ του ese_ejja UNIVERSÈLE DREÛTS ASSAMBLEÝAADAM Ïa SHROMAŽDENIEtúto tia;\ui. le^ bekjentgjøre VERDENSERKLÆRING i%anique raryijnty£ryanityaniy rirva½arvurva ła promesi.Ła t† обет,ОБЩОТО СЪБРАНИЕпровъзгласява koʻrsatmasi = SKUPŠTINI usirhelèli.À bjóðarAÐALFUNDURINHesa teirra.Øll ṅwet η που σε τα και των θα μην για δεν ζει Στο wónÿuú enupa,…) pruckamakir+t ƒe 空分別種族 スベテ ノ ニンゲン ジンルイ シャカイ コウセイイン コユウ ソンゲン ト ビョウドウ デ ユズル デキナイ ケンリ ヲ ハ ムシ オヨビ ケイブ ガ、 フミニジッタ ヤバン モタラシ、 ゲンロン ウケラレ、 ケツボウ カメイコク コクサイ レンゴウ ツネニ マ アル チイキ ジンシュ、 ヒフ ザイサン、 デキル。 フヘンテキ カクホスル ヘイワ イッパン シュダン ハンギャク ウッタエル シンポ カンゼン すべて の にんげん じんるい しゃかい こうせいいん こゆう そんげん と びょうどう で ゆずる できない けんり を は むし および けいぶ が、 ふみにじった やばん もたらし、 げんろん うけられ、 けつぼう かめいこく こくさい れんごう つねに ま ある ちいき じんしゅ、 ひふ ざいさん、 ふへんてき かくほする へいわ いっぱん しゅだん はんぎゃく うったえる しんぽ かんぜん 人生而自 由在 大会， KkÕõ | БбЮю ,ESZUW̲IL TtÔô 人生而平 人人生而平等 因此依家， 鑑於對人類家庭所有成員的固有尊嚴及其平等的和不移的權利的承認，乃是世界自由、正義與和平的基礎 發布這一世界人權宣言 人人有權享有生命 鑑於有必要促進各國間友好關係的發展， 鑑於各會員國並已誓願同聯合國合作以促進對人權和基本自由的普遍尊重和遵行， 鑑於對這些權利和自由的普遍了解對於這個誓願的充分實現具有很大的重要性， 人人生而自由，在尊嚴和權利上一律平等。他們賦有理性和良心，並應以兄弟關係的精神相對待。 由拉 因此葛歇， 就系 人皆生而 人皆生而自由；在尊嚴及權利上均各平等。人各賦有理性良知，誠應和睦相處，情同手足。 人類社会のすべての構成員の固有の尊厳と平等で譲ることのできない権利とを承認することは 人権の無視及び軽侮が、人類の良心を踏みにじった野蛮行為をもたらし、言論及び信仰の自由が受けられ、恐怖及び欠乏のない世界の到来が 加盟国は、国際連合と協力して よって、ここに、国連総会は 社会の各個人及び各機関が、この世界人権宣言を常に念頭に置きながら、加盟国自身の人民の間にも、また、加盟国の管轄下にある地域の人民の間にも すべて人は、人種、皮膚の色、性、言語、宗教、政治上その他の意見、国民的もしくは社会的出身、財産、門地その他の地位又はこれに類するいかなる自由による差別をも受けることなく、この宣言に掲げるすべての権利と自由とを享有することができる。 社会の各個人及び各機関が、この世界人権宣言を常に念頭に置きながら、加盟国自身の人民の間にも、また、加盟国の管轄下にある地域の人民の間にも、これらの権利と自由との尊重を指導及び教育によって促進すること並びにそれらの普遍的措置によって確保することに努力するように、すべての人民とすべての国とが達成すべき共通の基準として、この人権宣言を公布する。 人権の無視及び軽侮が、人類の良心を踏みにじった野蛮行為をもたらし、言論及び信仰の自由が受けられ、恐怖及び欠乏のない世界の到来が、一般の人々の最高の願望として宣言されたので、 人間が専制と圧迫とに対する最後の手段として反逆に訴えることがないようにするためには、法の支配によって人権を保護することが肝要であるので、 諸国間の友好関係の発展を促進することが肝要であるので、国際連合の諸国民は、国連憲章において、基本的人権、人間の尊厳及び価値並びに男女の同権についての信念を再確認し、かつ、一層大きな自由のうちで社会的進歩と生活水準の向上とを促進することを決意したので、 加盟国は、国際連合と協力して、人権及び基本的自由の普遍的な尊重及び遵守の促進を達成することを誓約したので、 これらの権利及び自由に対する共通の理解は、この誓約を完全にするためにもっとも重要であるので、</div>
+    </div>
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+	// break text so that no reflow happens
+async function breakText() {
+	boxContent = document.getElementsByClassName("box-text")
+	for (let box of boxContent) {
+		switchFonts()
+		await sleep(1)
+		break1 = getLineBreaks(box)
+		switchFonts()
+		await sleep(1)
+		break2 = getLineBreaks(box)
+
+		if (break1.length >= break2.length) {
+		breaks = break1
+		} else {
+		breaks = break2
+		}
+		insertBreaks(box, breaks)
+		box.style.whiteSpace = "pre"
+		console.log("set to pre")
+	}
+	}
+
+function getLineBreaks(elem) {
+	const nodes = grabTextNodes(elem);
+	for (const node of nodes) { // each node is a big block of text
+		let rangeIndex = 1;
+		let textIndex = 0;
+		let nodeText = node.textContent;
+		const textLength = nodeText.length;
+
+		linebreaks = []
+		prevTop = 0;
+		while (rangeIndex <= textLength) {
+			const range = document.createRange();
+			range.setStart(node, rangeIndex-1);
+			range.setEnd(node, rangeIndex)
+			currentTop = range.getBoundingClientRect().top
+		if (currentTop > prevTop) {
+			linebreaks.push(rangeIndex-2)
+		}
+		rangeIndex += 1;
+		prevTop = currentTop
+		}
+	}
+	return linebreaks
+}
+
+function grabTextNodes(elem) {
+	const walker = document.createTreeWalker(elem, NodeFilter.SHOW_TEXT, null);
+	const nodes = [];
+	while (walker.nextNode()) {
+		nodes.push(walker.currentNode);
+	}
+	return nodes;
+}
+
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+function insertBreaks(node, breaks) {
+	console.log(node, breaks)
+	newText = ""
+	currentText = node.textContent
+	for (i=0; i<currentText.length; i++) {
+		if (breaks.includes(i)) {
+		newText += "<br>"
+		} else {
+		newText += currentText[i]
+		}
+	}
+	node.innerHTML = newText
+}
+
+	if (fontToggle !== null) {
+		breakText()
+}
+
+	
+
+
+    </script>
+</html>
