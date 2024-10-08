@@ -30,7 +30,7 @@ venv/touchfile: requirements.txt
 	touch venv/touchfile
 
 test: venv build.stamp
-	. venv/bin/activate; mkdir -p out/fontbakery; cp $(METADATA_FILES) $(TTF_OUTPUTS); fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find ${TTF_OUTPUTS} -type f)  || echo '::warning title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+	. venv/bin/activate; mkdir -p out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find ${TTF_OUTPUTS} -type f) $(METADATA_FILES) || echo '::warning title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
 	. venv/bin/activate; mkdir -p out/proof; diffenator2 proof $(shell find ${TTF_OUTPUTS} -type f) -o out/proof
