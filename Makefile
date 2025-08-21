@@ -39,5 +39,7 @@ clean:
 	rm -rf venv
 	find . -name "*.pyc" -delete
 
-update:
-	pip install --upgrade $(dependency); pip freeze > requirements.txt
+update: venv
+	. venv/bin/activate; \
+	sed 's/==.*//' requirements.txt | xargs pip install --upgrade; \
+	pip freeze > requirements.txt
