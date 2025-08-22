@@ -1,16 +1,16 @@
 # LINE Seed
 
-[![][Fontbakery]](https://line.github.io/seed/fontbakery/fontbakery-report.html)
-[![][Universal]](https://line.github.io/seed/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://line.github.io/seed/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://line.github.io/seed/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://line.github.io/seed/fontbakery/fontbakery-report.html)
+[![][Fontspector]](https://line.github.io/seed/fontspector/fontspector-report.html)
+[![][OpenType]](https://line.github.io/seed/fontspector/fontspector-report.html)
+[![][Universal]](https://line.github.io/seed/fontspector/fontspector-report.html)
+[![][Google Fonts]](https://line.github.io/seed/fontspector/fontspector-report.html)
+[![][Glyphset]](https://line.github.io/seed/fontspector/fontspector-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fline%2Fseed%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fline%2Fseed%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fline%2Fseed%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fline%2Fseed%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fline%2Fseed%2Fgh-pages%2Fbadges%2FUniversal.json
+[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fline.github.io%2Fseed%2Fbadges%2FFontspectorQA.json
+[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Fline.github.io%2Fseed%2Fbadges%2FOpentypeSpecificationChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fline.github.io%2Fseed%2Fbadges%2FUniversalProfileChecks.json
+[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Fline.github.io%2Fseed%2Fbadges%2FFontFileChecks.json
+[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fline.github.io%2Fseed%2Fbadges%2FGlyphsetChecks.json
 
 Seed, a word containing the meaning of growth, is LINE’s first custom typeface. The geometry-based LINE Seed is unique yet universal.
 
