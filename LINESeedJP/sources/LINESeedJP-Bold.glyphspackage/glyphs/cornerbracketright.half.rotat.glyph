@@ -1,0 +1,37 @@
+{
+glyphname = cornerbracketright.half.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (555, 119);
+place = (555, 119);
+type = Stem;
+},
+{
+place = (38, 108);
+place = (38, 108);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(38,832,l),
+(38,555,l),
+(939,555,l),
+(939,674,l),
+(146,674,l),
+(146,832,l)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09087;
+}

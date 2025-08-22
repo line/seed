@@ -1,0 +1,54 @@
+{
+glyphname = backslash;
+kernLeft = backslash;
+kernRight = backslash;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (775, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (32, 391);
+place = (32, 391);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(411,-156,ls),
+(418,-156,o),
+(423,-152,o),
+(423,-144,cs),
+(423,-140,l),
+(171,763,ls),
+(169,772,o),
+(164,775,o),
+(156,775,cs),
+(45,775,ls),
+(37,775,o),
+(32,771,o),
+(32,764,cs),
+(32,763,o),
+(32,761,o),
+(33,759,c),
+(284,-144,ls),
+(286,-153,o),
+(291,-156,o),
+(299,-156,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 455;
+}
+);
+note = cid00097;
+unicode = 92;
+}

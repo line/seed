@@ -1,0 +1,38 @@
+{
+glyphname = orthogonal.full;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (44, 69);
+place = (44, 69);
+type = Stem;
+},
+{
+place = (191, 70);
+place = (191, 70);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(191,44,l),
+(831,44,l),
+(831,113,l),
+(261,113,l),
+(261,715,l),
+(191,715,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07629;
+unicode = 8735;
+}

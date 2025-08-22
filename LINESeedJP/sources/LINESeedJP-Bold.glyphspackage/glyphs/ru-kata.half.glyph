@@ -1,0 +1,62 @@
+{
+glyphname = "ru-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (536, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (103, 100);
+place = (103, 100);
+type = Stem;
+},
+{
+place = (237, 98);
+place = (237, 98);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(336,796,l),
+(237,796,l),
+(237,-39,l),
+(402,17,o),
+(467,212,o),
+(489,411,c),
+(406,536,l),
+(394,400,o),
+(380,243,o),
+(334,190,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(105,-49,l),
+(195,135,o),
+(203,360,o),
+(203,644,cs),
+(203,794,l),
+(101,795,l),
+(103,629,ls),
+(103,403,o),
+(90,162,o),
+(13,35,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00383;
+unicode = 65433;
+}

@@ -1,0 +1,35 @@
+{
+glyphname = "prolonged-kana.half.rotat";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (423, 412);
+place = (423, 412);
+type = Stem;
+},
+{
+place = (467, 65);
+place = (467, 65);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(467,423,l),
+(532,423,l),
+(532,835,l),
+(467,835,l)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09100;
+}

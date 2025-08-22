@@ -1,0 +1,57 @@
+{
+glyphname = "tusmall-hira.half.rotat";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (428, 144);
+place = (428, 144);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (778, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (517, 158);
+place = (517, 158);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(609,428,o),
+(677,524,o),
+(675,638,cs),
+(674,708,o),
+(651,775,o),
+(630,843,c),
+(473,804,l),
+(501,744,o),
+(518,690,o),
+(517,656,cs),
+(517,600,o),
+(475,572,o),
+(401,572,cs),
+(282,572,o),
+(217,624,o),
+(209,778,c),
+(58,730,l),
+(77,517,o),
+(205,428,o),
+(401,428,cs)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09189;
+}

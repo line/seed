@@ -1,0 +1,52 @@
+{
+glyphname = rightWhiteTriangle;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-70, 892);
+place = (-70, 892);
+type = Stem;
+},
+{
+place = (148, 66);
+place = (148, 66);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(148,-61,ls),
+(148,-71,o),
+(152,-73,o),
+(161,-68,cs),
+(923,369,ls),
+(931,374,o),
+(931,379,o),
+(923,384,cs),
+(161,820,ls),
+(152,825,o),
+(148,822,o),
+(148,813,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(802,376,l),
+(214,40,l),
+(214,712,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08010;
+unicode = 9655;
+}

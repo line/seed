@@ -1,0 +1,44 @@
+{
+glyphname = dotaccent;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (623, 179);
+place = (623, 179);
+type = Stem;
+},
+{
+place = (157, 186);
+place = (157, 186);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(343,762,o),
+(300,802,o),
+(250,802,cs),
+(200,802,o),
+(157,762,o),
+(157,711,cs),
+(157,660,o),
+(201,623,o),
+(250,623,cs),
+(299,623,o),
+(343,660,o),
+(343,711,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid25804;
+unicode = 729;
+}

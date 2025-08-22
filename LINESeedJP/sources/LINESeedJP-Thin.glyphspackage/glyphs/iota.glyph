@@ -1,0 +1,60 @@
+{
+glyphname = iota;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-23, 31);
+place = (-23, 31);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (506, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (70, 31);
+place = (70, 31);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,120,ls),
+(70,21,o),
+(118,-23,o),
+(217,-23,cs),
+(222,-23,o),
+(225,-20,o),
+(225,-15,cs),
+(225,0,ls),
+(225,5,o),
+(222,8,o),
+(217,8,cs),
+(138,8,o),
+(101,41,o),
+(101,120,cs),
+(101,498,ls),
+(101,503,o),
+(98,506,o),
+(93,506,cs),
+(78,506,ls),
+(73,506,o),
+(70,503,o),
+(70,498,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 225;
+}
+);
+note = cid01043;
+unicode = 953;
+}

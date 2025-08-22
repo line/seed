@@ -1,0 +1,60 @@
+{
+glyphname = exclamdown.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (671.5, 144);
+place = (671.5, 144);
+type = Stem;
+},
+{
+place = (467, 191);
+place = (467, 191);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (646, 194);
+place = (646, 194);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-210,669,l),
+(198,674,l),
+(424,684,l),
+(424,805,l),
+(199,814,l),
+(-210,817,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(615,646,o),
+(658,690,o),
+(658,743,cs),
+(658,796,o),
+(615,840,o),
+(562,840,cs),
+(510,840,o),
+(467,796,o),
+(467,743,cs),
+(467,690,o),
+(510,646,o),
+(563,646,cs)
+);
+}
+);
+vertWidth = 272;
+width = 1000;
+}
+);
+note = cid08820;
+}

@@ -1,0 +1,68 @@
+{
+glyphname = "ro-kata";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-13, 173);
+place = (-13, 173);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (576, 169);
+place = (576, 169);
+type = Stem;
+},
+{
+place = (106, 194);
+place = (106, 194);
+type = Stem;
+},
+{
+place = (693, 194);
+place = (693, 194);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(868,-13,ls),
+(880,-13,o),
+(887,-7,o),
+(887,6,cs),
+(887,727,ls),
+(887,740,o),
+(880,746,o),
+(868,746,cs),
+(125,745,ls),
+(113,745,o),
+(106,739,o),
+(106,726,cs),
+(106,6,ls),
+(106,-7,o),
+(113,-13,o),
+(125,-13,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(693,160,l),
+(300,160,l),
+(300,576,l),
+(693,576,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid01001;
+unicode = 12525;
+}

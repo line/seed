@@ -1,0 +1,35 @@
+{
+glyphname = acute.half;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (614, 252);
+place = (614, 252);
+type = Stem;
+},
+{
+place = (125, 310);
+place = (125, 310);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(252,866,l),
+(125,614,l),
+(269,614,l),
+(435,866,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00501;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = minute.full;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (526, 333);
+place = (526, 333);
+type = Stem;
+},
+{
+place = (10, 259);
+place = (10, 259);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(125,526,ls),
+(136,526,o),
+(143,531,o),
+(147,541,cs),
+(267,837,ls),
+(272,850,o),
+(266,859,o),
+(252,859,cs),
+(102,858,ls),
+(91,858,o),
+(84,853,o),
+(81,841,cs),
+(11,547,ls),
+(8,534,o),
+(14,526,o),
+(28,526,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00708;
+unicode = 8242;
+}

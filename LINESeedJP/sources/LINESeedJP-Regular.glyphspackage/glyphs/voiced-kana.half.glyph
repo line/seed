@@ -1,0 +1,53 @@
+{
+glyphname = "voiced-kana.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (604, 234);
+place = (604, 234);
+type = Stem;
+},
+{
+place = (23, 257);
+place = (23, 257);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(280,693,l),
+(246,740,o),
+(191,801,o),
+(148,838,c),
+(105,808,l),
+(149,768,o),
+(202,706,o),
+(235,659,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(195,638,l),
+(162,683,o),
+(109,746,o),
+(66,786,c),
+(23,756,l),
+(63,718,o),
+(117,652,o),
+(148,604,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00388;
+unicode = 65438;
+}

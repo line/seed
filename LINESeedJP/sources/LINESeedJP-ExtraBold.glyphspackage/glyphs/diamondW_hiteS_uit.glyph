@@ -1,0 +1,45 @@
+{
+glyphname = diamondWhiteSuit;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-79, 921);
+place = (-79, 921);
+type = Stem;
+},
+{
+place = (88, 824);
+place = (88, 824);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,378,l),
+(500,-79,l),
+(912,378,l),
+(500,842,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(146,378,l),
+(500,771,l),
+(854,378,l),
+(500,-9,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08019;
+unicode = 9826;
+}

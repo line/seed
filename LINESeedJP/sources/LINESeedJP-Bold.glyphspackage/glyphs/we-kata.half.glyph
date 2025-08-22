@@ -1,0 +1,68 @@
+{
+glyphname = "we-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-15, 132.5);
+place = (-15, 132.5);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (532, -20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (607.5, 129.5);
+place = (607.5, 129.5);
+type = Stem;
+},
+{
+place = (187, 116);
+place = (187, 116);
+type = Stem;
+},
+{
+place = (357, 111);
+place = (357, 111);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(33,118,l),
+(33,-14,l),
+(468,-15,l),
+(468,118,l),
+(303,117,l),
+(303,360,l),
+(348,300,l),
+(455,407,o),
+(468,556,o),
+(468,697,cs),
+(468,737,l),
+(51,737,l),
+(51,607,l),
+(357,608,l),
+(356,553,o),
+(346,497,o),
+(303,436,c),
+(303,532,l),
+(187,532,l),
+(187,117,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00392;
+}

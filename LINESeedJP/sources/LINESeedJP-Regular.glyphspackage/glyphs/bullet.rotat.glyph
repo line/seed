@@ -1,0 +1,43 @@
+{
+glyphname = bullet.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (551, 230);
+place = (551, 230);
+type = Stem;
+},
+{
+place = (326, 230);
+place = (326, 230);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(326,603,o),
+(378,551,o),
+(441,551,cs),
+(504,551,o),
+(556,603,o),
+(556,666,cs),
+(556,729,o),
+(504,781,o),
+(441,781,cs),
+(378,781,o),
+(326,729,o),
+(326,666,cs)
+);
+}
+);
+vertWidth = 438;
+width = 1000;
+}
+);
+note = cid08838;
+}

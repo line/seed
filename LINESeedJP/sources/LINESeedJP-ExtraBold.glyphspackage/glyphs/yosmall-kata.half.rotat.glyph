@@ -1,0 +1,55 @@
+{
+glyphname = "yosmall-kata.half.rotat";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (455, 138);
+place = (455, 138);
+type = Stem;
+},
+{
+place = (80, 141);
+place = (80, 141);
+type = Stem;
+},
+{
+place = (342, 140);
+place = (342, 140);
+type = Stem;
+},
+{
+place = (585, 141);
+place = (585, 141);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,809,l),
+(80,593,l),
+(46,593,l),
+(46,455,l),
+(726,455,l),
+(726,804,l),
+(585,804,l),
+(585,593,l),
+(482,593,l),
+(482,791,l),
+(342,791,l),
+(342,593,l),
+(221,593,l),
+(221,809,l)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09098;
+}

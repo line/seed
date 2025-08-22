@@ -1,0 +1,76 @@
+{
+glyphname = exclam;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-24, 73);
+place = (-24, 73);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (761, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (88, 32);
+place = (88, 32);
+type = Stem;
+},
+{
+place = (65, 74);
+place = (65, 74);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,197,ls),
+(88,191,o),
+(91,189,o),
+(96,189,cs),
+(109,189,ls),
+(114,189,o),
+(117,191,o),
+(117,197,cs),
+(120,753,ls),
+(120,759,o),
+(117,761,o),
+(112,761,cs),
+(93,761,ls),
+(88,761,o),
+(84,759,o),
+(84,753,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(123,-24,o),
+(139,-9,o),
+(139,13,cs),
+(139,34,o),
+(123,49,o),
+(102,49,cs),
+(81,49,o),
+(65,34,o),
+(65,13,cs),
+(65,-9,o),
+(81,-24,o),
+(102,-24,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 205;
+}
+);
+note = cid00002;
+unicode = 33;
+}

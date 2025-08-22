@@ -1,0 +1,70 @@
+{
+glyphname = whitecornerbracketleft.half.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (423, 60);
+place = (423, 60);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (544, 62);
+place = (544, 62);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (684, 60);
+place = (684, 60);
+type = Stem;
+},
+{
+place = (57, 68);
+place = (57, 68);
+type = Stem;
+},
+{
+place = (757, 64);
+place = (757, 64);
+type = Stem;
+},
+{
+place = (909, 69);
+place = (909, 69);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(57,744,l),
+(57,544,l),
+(757,544,l),
+(757,423,l),
+(978,423,l),
+(978,744,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(125,684,l),
+(909,684,l),
+(909,483,l),
+(821,483,l),
+(821,606,l),
+(125,606,l)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09271;
+}

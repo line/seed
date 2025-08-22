@@ -1,0 +1,92 @@
+{
+glyphname = "go-kata.half.rotat";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (432, 156);
+place = (432, 156);
+type = Stem;
+},
+{
+place = (115, 168);
+place = (115, 168);
+type = Stem;
+},
+{
+place = (695, 168);
+place = (695, 168);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (432, 123);
+place = (432, 123);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (555, -20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (432, 102);
+place = (432, 102);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(74,588,l),
+(74,432,l),
+(830,432,l),
+(803,555,l),
+(863,569,l),
+(863,833,l),
+(695,833,l),
+(695,588,l),
+(283,588,l),
+(283,839,l),
+(115,839,l),
+(115,588,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(847,468,l),
+(893,476,o),
+(949,496,o),
+(982,509,c),
+(968,573,l),
+(926,557,o),
+(881,542,o),
+(830,534,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(871,382,l),
+(914,389,o),
+(958,404,o),
+(999,423,c),
+(986,485,l),
+(944,469,o),
+(896,453,o),
+(854,445,c)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09158;
+}

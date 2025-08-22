@@ -1,0 +1,54 @@
+{
+glyphname = intersection.alt;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (700, 43);
+place = (700, 43);
+type = Stem;
+},
+{
+place = (202, 41);
+place = (202, 41);
+type = Stem;
+},
+{
+place = (757, 41);
+place = (757, 41);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(202,45,l),
+(243,45,l),
+(243,455,ls),
+(243,583,o),
+(341,700,o),
+(500,700,cs),
+(659,700,o),
+(757,583,o),
+(757,455,cs),
+(757,45,l),
+(798,45,l),
+(798,453,ls),
+(798,621,o),
+(673,743,o),
+(500,743,cs),
+(327,743,o),
+(202,621,o),
+(202,453,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07631;
+}

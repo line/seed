@@ -1,0 +1,47 @@
+{
+glyphname = macron.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (509, 242);
+place = (509, 242);
+type = Stem;
+},
+{
+place = (794, 31);
+place = (794, 31);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(825,743,ls),
+(825,748,o),
+(822,751,o),
+(817,751,cs),
+(802,751,ls),
+(797,751,o),
+(794,748,o),
+(794,743,cs),
+(794,517,ls),
+(794,512,o),
+(797,509,o),
+(802,509,cs),
+(817,509,ls),
+(822,509,o),
+(825,512,o),
+(825,517,cs)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid08848;
+}

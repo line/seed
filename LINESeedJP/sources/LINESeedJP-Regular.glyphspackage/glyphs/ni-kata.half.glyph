@@ -1,0 +1,51 @@
+{
+glyphname = "ni-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (39, 70);
+place = (39, 70);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (608, 68);
+place = (608, 68);
+type = Stem;
+},
+{
+place = (44, 413);
+place = (44, 413);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,608,l),
+(416,608,l),
+(416,676,l),
+(87,676,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(44,39,l),
+(457,39,l),
+(457,109,l),
+(44,109,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00364;
+unicode = 65414;
+}

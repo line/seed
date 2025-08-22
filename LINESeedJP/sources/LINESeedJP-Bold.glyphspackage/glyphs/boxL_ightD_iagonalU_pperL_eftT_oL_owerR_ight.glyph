@@ -1,0 +1,42 @@
+{
+glyphname = boxLightDiagonalUpperLeftToLowerRight;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-18, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (777, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (24, 951);
+place = (24, 951);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(24,777,l),
+(897,-95,l),
+(975,-18,l),
+(102,856,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08262;
+unicode = 9586;
+}

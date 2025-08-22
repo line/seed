@@ -1,0 +1,36 @@
+{
+glyphname = "prolonged-kana.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (347, 65);
+place = (347, 65);
+type = Stem;
+},
+{
+place = (45, 412);
+place = (45, 412);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(45,347,l),
+(457,347,l),
+(457,412,l),
+(45,412,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00342;
+unicode = 65392;
+}

@@ -1,0 +1,72 @@
+{
+glyphname = "semivoiced-kana";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (650, 25);
+place = (650, 25);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (836, 26);
+place = (836, 26);
+type = Stem;
+},
+{
+place = (43, 25);
+place = (43, 25);
+type = Stem;
+},
+{
+place = (229, 26);
+place = (229, 26);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(207,650,o),
+(255,697,o),
+(255,756,cs),
+(255,814,o),
+(207,862,o),
+(149,862,cs),
+(90,862,o),
+(43,814,o),
+(43,756,cs),
+(43,697,o),
+(90,650,o),
+(149,650,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(68,800,o),
+(105,836,o),
+(149,836,cs),
+(194,836,o),
+(229,800,o),
+(229,756,cs),
+(229,712,o),
+(193,675,o),
+(149,675,cs),
+(105,675,o),
+(68,712,o),
+(68,756,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00644;
+unicode = 12444;
+}

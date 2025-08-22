@@ -1,0 +1,55 @@
+{
+glyphname = "si-hira.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-70, 141);
+place = (-70, 141);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (779, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (66, 116);
+place = (66, 116);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(383,398,l),
+(340,125,o),
+(282,71,o),
+(234,71,cs),
+(207,71,o),
+(182,92,o),
+(182,152,cs),
+(182,361,o),
+(185,569,o),
+(189,778,c),
+(68,779,l),
+(66,142,ls),
+(66,-25,o),
+(149,-70,o),
+(223,-70,cs),
+(376,-70,o),
+(449,111,o),
+(481,276,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00537;
+}

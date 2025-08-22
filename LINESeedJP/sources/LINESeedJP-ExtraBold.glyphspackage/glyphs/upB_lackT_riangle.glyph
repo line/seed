@@ -1,0 +1,53 @@
+{
+glyphname = upBlackTriangle;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (5, 792);
+place = (5, 792);
+type = Stem;
+},
+{
+place = (68, 864);
+place = (68, 864);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(916,5,ls),
+(927,5,o),
+(932,10,o),
+(932,17,cs),
+(932,21,o),
+(931,24,o),
+(929,28,cs),
+(513,787,ls),
+(509,794,o),
+(505,797,o),
+(500,797,cs),
+(495,797,o),
+(491,794,o),
+(487,787,cs),
+(71,28,ls),
+(69,24,o),
+(68,21,o),
+(68,17,cs),
+(68,10,o),
+(73,5,o),
+(84,5,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00731;
+unicode = 9650;
+}

@@ -1,0 +1,39 @@
+{
+glyphname = boxLightUpAndHorizontal.half;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (363, 34);
+place = (363, 34);
+type = Stem;
+},
+{
+place = (233, 34);
+place = (233, 34);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,397,l),
+(0,363,l),
+(500,363,l),
+(500,397,l),
+(267,397,l),
+(267,880,l),
+(233,880,l),
+(233,397,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00477;
+}

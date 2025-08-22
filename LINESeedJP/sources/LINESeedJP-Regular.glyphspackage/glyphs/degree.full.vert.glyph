@@ -1,0 +1,71 @@
+{
+glyphname = degree.full.vert;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-93, 51);
+place = (-93, 51);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (99, 51);
+place = (99, 51);
+type = Stem;
+},
+{
+place = (721, 51);
+place = (721, 51);
+type = Stem;
+},
+{
+place = (912, 52);
+place = (912, 52);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(964,96,o),
+(910,150,o),
+(843,150,cs),
+(775,150,o),
+(721,96,o),
+(721,28,cs),
+(721,-39,o),
+(775,-93,o),
+(843,-93,cs),
+(910,-93,o),
+(964,-39,o),
+(964,28,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(804,-42,o),
+(772,-11,o),
+(772,28,cs),
+(772,67,o),
+(804,99,o),
+(843,99,cs),
+(881,99,o),
+(912,67,o),
+(912,28,cs),
+(912,-11,o),
+(881,-42,o),
+(843,-42,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08269;
+}

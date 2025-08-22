@@ -1,0 +1,68 @@
+{
+glyphname = uni53E3;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-21, 31);
+place = (-21, 31);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (699, 31);
+place = (699, 31);
+type = Stem;
+},
+{
+place = (117, 33);
+place = (117, 33);
+type = Stem;
+},
+{
+place = (848, 33);
+place = (848, 33);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(117,-12,ls),
+(117,-18,o),
+(120,-21,o),
+(126,-21,cs),
+(872,-21,ls),
+(878,-21,o),
+(881,-18,o),
+(881,-12,cs),
+(881,721,ls),
+(881,727,o),
+(878,730,o),
+(872,730,cs),
+(126,730,ls),
+(120,730,o),
+(117,727,o),
+(117,721,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(848,699,l),
+(848,10,l),
+(150,10,l),
+(150,699,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid01969;
+unicode = (12061,21475);
+}

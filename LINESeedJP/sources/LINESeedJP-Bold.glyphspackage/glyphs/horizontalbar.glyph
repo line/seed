@@ -1,0 +1,48 @@
+{
+glyphname = horizontalbar;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (316, 127);
+place = (316, 127);
+type = Stem;
+},
+{
+place = (-12, 1024);
+place = (-12, 1024);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1012,429,ls),
+(1012,438,o),
+(1007,443,o),
+(998,443,cs),
+(2,443,ls),
+(-7,443,o),
+(-12,438,o),
+(-12,429,cs),
+(-12,331,ls),
+(-12,322,o),
+(-7,317,o),
+(2,317,cs),
+(998,316,ls),
+(1007,316,o),
+(1012,321,o),
+(1012,330,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00661;
+unicode = 8213;
+}

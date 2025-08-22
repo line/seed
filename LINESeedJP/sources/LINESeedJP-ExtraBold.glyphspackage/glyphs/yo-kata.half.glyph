@@ -1,0 +1,58 @@
+{
+glyphname = "yo-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-19, 166);
+place = (-19, 166);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (305, 164);
+place = (305, 164);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (604, 164);
+place = (604, 164);
+type = Stem;
+},
+{
+place = (294, 155);
+place = (294, 155);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(42,-19,l),
+(294,-19,l),
+(294,-60,l),
+(449,-61,l),
+(449,768,l),
+(46,768,l),
+(46,604,l),
+(294,604,l),
+(294,469,l),
+(62,469,l),
+(62,305,l),
+(294,305,l),
+(294,147,l),
+(42,147,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00380;
+unicode = 65430;
+}

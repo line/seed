@@ -1,0 +1,48 @@
+{
+glyphname = blackSquare;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-31, 821);
+place = (-31, 821);
+type = Stem;
+},
+{
+place = (89, 822);
+place = (89, 822);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(899,-31,ls),
+(907,-31,o),
+(911,-27,o),
+(911,-19,cs),
+(911,778,ls),
+(911,786,o),
+(907,790,o),
+(899,790,cs),
+(101,790,ls),
+(93,790,o),
+(89,786,o),
+(89,778,cs),
+(89,-19,ls),
+(89,-27,o),
+(93,-31,o),
+(101,-31,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00729;
+unicode = 9632;
+}

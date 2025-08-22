@@ -1,0 +1,119 @@
+{
+glyphname = kiroSquare;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-24, 54);
+place = (-24, 54);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (300, 54);
+place = (300, 54);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (511.5, 55);
+place = (511.5, 55);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (690.5, 54);
+place = (690.5, 54);
+type = Stem;
+},
+{
+place = (516, 60);
+place = (516, 60);
+type = Stem;
+},
+{
+place = (863, 60);
+place = (863, 60);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (530, 54.5);
+place = (530, 54.5);
+type = Stem;
+},
+{
+place = (240.5, 56.5);
+place = (240.5, 56.5);
+type = Stem;
+},
+{
+place = (223.5, 57);
+place = (223.5, 57);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (673, 54.5);
+place = (673, 54.5);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(269,347,l),
+(327,352,l),
+(308,523,l),
+(510,537,l),
+(507,592,l),
+(303,577,l),
+(291,684,l),
+(485,697,l),
+(481,751,l),
+(286,738,l),
+(275,844,l),
+(218,839,l),
+(229,734,l),
+(45,721,l),
+(49,666,l),
+(235,680,l),
+(246,573,l),
+(42,560,l),
+(45,505,l),
+(250,518,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(863,-51,l),
+(923,-53,l),
+(923,354,l),
+(516,354,l),
+(516,-53,l),
+(576,-53,l),
+(576,-24,l),
+(863,-24,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(863,300,l),
+(863,30,l),
+(576,30,l),
+(576,300,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07586;
+unicode = 13076;
+}

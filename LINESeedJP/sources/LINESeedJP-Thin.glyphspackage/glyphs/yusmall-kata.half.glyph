@@ -1,0 +1,48 @@
+{
+glyphname = "yusmall-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (13, 33);
+place = (13, 33);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (520, 32);
+place = (520, 32);
+type = Stem;
+},
+{
+place = (317, 36.5);
+place = (317, 36.5);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(307,46,l),
+(82,46,l),
+(82,13,l),
+(426,13,l),
+(426,46,l),
+(343,46,l),
+(364,552,l),
+(107,552,l),
+(107,520,l),
+(327,520,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00339;
+unicode = 65389;
+}

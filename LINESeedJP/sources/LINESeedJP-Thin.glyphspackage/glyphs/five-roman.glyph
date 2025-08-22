@@ -1,0 +1,63 @@
+{
+glyphname = "five-roman";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-4, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (516, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (269, 461);
+place = (269, 461);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,50,l),
+(306,509,ls),
+(304,513,o),
+(301,516,o),
+(296,516,cs),
+(277,516,ls),
+(271,516,o),
+(268,511,o),
+(270,505,cs),
+(485,2,ls),
+(487,-2,o),
+(490,-4,o),
+(495,-4,cs),
+(503,-4,ls),
+(509,-4,o),
+(512,-2,o),
+(514,2,cs),
+(729,505,ls),
+(732,511,o),
+(729,516,o),
+(723,516,cs),
+(704,516,ls),
+(699,516,o),
+(696,513,o),
+(694,509,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08096;
+unicode = 8564;
+}

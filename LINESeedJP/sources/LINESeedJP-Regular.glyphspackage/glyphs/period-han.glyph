@@ -1,0 +1,72 @@
+{
+glyphname = "period-han";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-65, 56);
+place = (-65, 56);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (171, 57);
+place = (171, 57);
+type = Stem;
+},
+{
+place = (66, 56);
+place = (66, 56);
+type = Stem;
+},
+{
+place = (303, 55);
+place = (303, 55);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(294,-65,o),
+(358,0,o),
+(358,82,cs),
+(358,162,o),
+(293,228,o),
+(212,228,cs),
+(130,228,o),
+(66,161,o),
+(66,82,cs),
+(66,0,o),
+(131,-65,o),
+(212,-65,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(163,-9,o),
+(122,33,o),
+(122,82,cs),
+(122,131,o),
+(163,171,o),
+(211,171,cs),
+(262,171,o),
+(303,131,o),
+(303,82,cs),
+(303,32,o),
+(262,-9,o),
+(211,-9,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00635;
+unicode = 12290;
+}

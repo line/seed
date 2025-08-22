@@ -1,0 +1,94 @@
+{
+glyphname = Thorn;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-13, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (141, 33);
+place = (141, 33);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (594, 32);
+place = (594, 32);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (761, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (106, 33);
+place = (106, 33);
+type = Stem;
+},
+{
+place = (568, 34);
+place = (568, 34);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(139,626,l),
+(139,753,ls),
+(139,758,o),
+(136,761,o),
+(131,761,cs),
+(114,761,ls),
+(109,761,o),
+(106,758,o),
+(106,753,cs),
+(106,-5,ls),
+(106,-10,o),
+(109,-13,o),
+(114,-13,cs),
+(131,-13,ls),
+(136,-13,o),
+(139,-10,o),
+(139,-5,cs),
+(139,141,l),
+(329,141,ls),
+(525,141,o),
+(602,232,o),
+(602,384,cs),
+(602,531,o),
+(523,626,o),
+(329,626,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(139,174,l),
+(139,594,l),
+(324,594,ls),
+(499,594,o),
+(568,518,o),
+(568,384,cs),
+(568,246,o),
+(499,174,o),
+(324,174,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 655;
+}
+);
+note = cid00192;
+unicode = 222;
+}

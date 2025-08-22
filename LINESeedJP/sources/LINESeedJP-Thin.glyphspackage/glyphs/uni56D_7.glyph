@@ -1,0 +1,68 @@
+{
+glyphname = uni56D7;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-45, 31);
+place = (-45, 31);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (759, 31);
+place = (759, 31);
+type = Stem;
+},
+{
+place = (96, 34);
+place = (96, 34);
+type = Stem;
+},
+{
+place = (868, 34);
+place = (868, 34);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(96,-36,ls),
+(96,-42,o),
+(99,-45,o),
+(105,-45,cs),
+(893,-45,ls),
+(899,-45,o),
+(902,-42,o),
+(902,-36,cs),
+(902,781,ls),
+(902,787,o),
+(899,790,o),
+(893,790,cs),
+(105,790,ls),
+(99,790,o),
+(96,787,o),
+(96,781,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(868,759,l),
+(868,-14,l),
+(130,-14,l),
+(130,759,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid04459;
+unicode = (12062,22231);
+}

@@ -1,0 +1,36 @@
+{
+glyphname = lowerFiveEighthsBlock;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-120, 625);
+place = (-120, 625);
+type = Stem;
+},
+{
+place = (0, 1000);
+place = (0, 1000);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,-120,l),
+(1000,-120,l),
+(1000,505,l),
+(0,505,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08234;
+unicode = 9605;
+}

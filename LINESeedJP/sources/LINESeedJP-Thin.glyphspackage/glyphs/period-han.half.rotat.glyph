@@ -1,0 +1,71 @@
+{
+glyphname = "period-han.half.rotat";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (619, 35);
+place = (619, 35);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (809, 34);
+place = (809, 34);
+type = Stem;
+},
+{
+place = (58, 35);
+place = (58, 35);
+type = Stem;
+},
+{
+place = (246, 35);
+place = (246, 35);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(230,619,o),
+(281,669,o),
+(281,731,cs),
+(281,793,o),
+(230,843,o),
+(169,843,cs),
+(108,843,o),
+(58,793,o),
+(58,731,cs),
+(58,669,o),
+(108,619,o),
+(169,619,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(127,654,o),
+(93,689,o),
+(93,731,cs),
+(93,774,o),
+(128,809,o),
+(170,809,cs),
+(211,809,o),
+(246,774,o),
+(246,731,cs),
+(246,689,o),
+(211,654,o),
+(169,654,cs)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09085;
+}

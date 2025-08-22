@@ -1,0 +1,62 @@
+{
+glyphname = Delta;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-21, 30);
+place = (-21, 30);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (726, 33);
+place = (726, 33);
+type = Stem;
+},
+{
+place = (30, 644);
+place = (30, 644);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(338,759,ls),
+(333,759,o),
+(329,757,o),
+(327,752,cs),
+(30,-14,ls),
+(28,-19,o),
+(30,-21,o),
+(35,-21,cs),
+(669,-21,ls),
+(674,-21,o),
+(676,-19,o),
+(674,-14,cs),
+(377,752,ls),
+(375,757,o),
+(371,759,o),
+(366,759,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(352,726,l),
+(630,9,l),
+(74,9,l)
+);
+}
+);
+vertWidth = 1000;
+width = 704;
+}
+);
+note = cid01014;
+unicode = 916;
+}

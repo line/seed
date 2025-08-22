@@ -1,0 +1,48 @@
+{
+glyphname = endash.vert;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (168, 424);
+place = (168, 424);
+type = Stem;
+},
+{
+place = (426, 148);
+place = (426, 148);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(426,182,ls),
+(426,173,o),
+(431,168,o),
+(440,168,cs),
+(560,168,ls),
+(569,168,o),
+(574,173,o),
+(574,182,cs),
+(574,578,ls),
+(574,587,o),
+(569,592,o),
+(560,592,cs),
+(440,592,ls),
+(431,592,o),
+(426,587,o),
+(426,578,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07893;
+unicode = 65074;
+}

@@ -1,0 +1,81 @@
+{
+glyphname = imacron;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-13, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (506, -20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (644, 31);
+place = (644, 31);
+type = Stem;
+},
+{
+place = (93, 31);
+place = (93, 31);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(93,-5,ls),
+(93,-10,o),
+(96,-13,o),
+(101,-13,cs),
+(116,-13,ls),
+(121,-13,o),
+(124,-10,o),
+(124,-5,cs),
+(124,498,ls),
+(124,503,o),
+(121,506,o),
+(116,506,cs),
+(101,506,ls),
+(96,506,o),
+(93,503,o),
+(93,498,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(-5,675,ls),
+(-10,675,o),
+(-13,672,o),
+(-13,667,cs),
+(-13,652,ls),
+(-13,647,o),
+(-10,644,o),
+(-5,644,cs),
+(221,644,ls),
+(226,644,o),
+(229,647,o),
+(229,652,cs),
+(229,667,ls),
+(229,672,o),
+(226,675,o),
+(221,675,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 217;
+}
+);
+note = cid25751;
+unicode = 299;
+}

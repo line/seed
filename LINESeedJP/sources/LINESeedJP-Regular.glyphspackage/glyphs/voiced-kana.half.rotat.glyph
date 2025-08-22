@@ -1,0 +1,52 @@
+{
+glyphname = "voiced-kana.half.rotat";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (600, 257);
+place = (600, 257);
+type = Stem;
+},
+{
+place = (724, 234);
+place = (724, 234);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(758,685,l),
+(803,718,o),
+(866,771,o),
+(906,814,c),
+(876,857,l),
+(838,817,o),
+(772,763,o),
+(724,732,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(813,600,l),
+(860,634,o),
+(921,689,o),
+(958,732,c),
+(928,775,l),
+(888,731,o),
+(826,678,o),
+(779,645,c)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09146;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = acute.full;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (597, 173);
+place = (597, 173);
+type = Stem;
+},
+{
+place = (380, 239);
+place = (380, 239);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(481,770,ls),
+(473,770,o),
+(468,767,o),
+(464,760,cs),
+(382,612,ls),
+(378,604,o),
+(380,597,o),
+(391,597,cs),
+(496,597,ls),
+(503,597,o),
+(509,599,o),
+(513,606,cs),
+(617,756,ls),
+(622,763,o),
+(620,770,o),
+(609,770,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00645;
+unicode = 180;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = "prolonged-kana";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (365, 32);
+place = (365, 32);
+type = Stem;
+},
+{
+place = (124, 752);
+place = (124, 752);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(124,374,ls),
+(124,368,o),
+(127,365,o),
+(133,365,cs),
+(867,365,ls),
+(873,365,o),
+(876,368,o),
+(876,374,cs),
+(876,388,ls),
+(876,394,o),
+(873,397,o),
+(867,397,cs),
+(133,397,ls),
+(127,397,o),
+(124,394,o),
+(124,388,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00660;
+unicode = 12540;
+}

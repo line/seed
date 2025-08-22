@@ -1,0 +1,40 @@
+{
+glyphname = "comma-han.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-87, 302);
+place = (-87, 302);
+type = Stem;
+},
+{
+place = (37, 258);
+place = (37, 258);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(295,-26,l),
+(248,77,o),
+(187,163,o),
+(130,215,c),
+(37,162,l),
+(93,102,o),
+(148,24,o),
+(189,-87,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00330;
+unicode = 65380;
+}

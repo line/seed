@@ -1,0 +1,48 @@
+{
+glyphname = underscore.full.vert;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-129, 1018);
+place = (-129, 1018);
+type = Stem;
+},
+{
+place = (-31, 31);
+place = (-31, 31);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-31,-120,ls),
+(-31,-126,o),
+(-28,-129,o),
+(-22,-129,cs),
+(-9,-129,ls),
+(-3,-129,o),
+(0,-126,o),
+(0,-120,cs),
+(0,880,ls),
+(0,886,o),
+(-3,889,o),
+(-9,889,cs),
+(-22,889,ls),
+(-28,889,o),
+(-31,886,o),
+(-31,880,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07890;
+unicode = 65075;
+}

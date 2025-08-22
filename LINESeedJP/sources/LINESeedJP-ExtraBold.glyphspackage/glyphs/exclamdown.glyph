@@ -1,0 +1,60 @@
+{
+glyphname = exclamdown;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (309, 238);
+place = (309, 238);
+type = Stem;
+},
+{
+place = (43, 246);
+place = (43, 246);
+type = Stem;
+},
+{
+place = (67, 197);
+place = (67, 197);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(289,494,o),
+(234,547,o),
+(166,547,cs),
+(98,547,o),
+(43,494,o),
+(43,428,cs),
+(43,363,o),
+(98,309,o),
+(166,309,cs),
+(234,309,o),
+(289,363,o),
+(289,428,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(80,266,l),
+(69,29,l),
+(65,-348,l),
+(266,-348,l),
+(262,28,l),
+(251,266,l)
+);
+}
+);
+vertWidth = 1000;
+width = 332;
+}
+);
+note = cid00101;
+unicode = 161;
+}

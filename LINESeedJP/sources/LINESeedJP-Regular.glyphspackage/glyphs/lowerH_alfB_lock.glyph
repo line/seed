@@ -1,0 +1,36 @@
+{
+glyphname = lowerHalfBlock;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-120, 500);
+place = (-120, 500);
+type = Stem;
+},
+{
+place = (0, 1000);
+place = (0, 1000);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,-120,l),
+(1000,-120,l),
+(1000,380,l),
+(0,380,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08233;
+unicode = 9604;
+}

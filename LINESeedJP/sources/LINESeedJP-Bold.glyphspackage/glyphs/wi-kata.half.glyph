@@ -1,0 +1,89 @@
+{
+glyphname = "wi-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (135, 129);
+place = (135, 129);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (561, 128);
+place = (561, 128);
+type = Stem;
+},
+{
+place = (99, 98);
+place = (99, 98);
+type = Stem;
+},
+{
+place = (275, 111);
+place = (275, 111);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (560, 129);
+place = (560, 129);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (135, 130);
+place = (135, 130);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (559, 130);
+place = (559, 130);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(275,135,l),
+(275,-80,l),
+(386,-80,l),
+(386,135,l),
+(473,135,l),
+(473,264,l),
+(386,264,l),
+(386,560,l),
+(462,560,l),
+(462,689,l),
+(386,689,l),
+(386,839,l),
+(275,839,l),
+(275,689,l),
+(44,689,l),
+(44,559,l),
+(99,559,l),
+(99,265,l),
+(27,265,l),
+(27,135,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(197,561,l),
+(275,561,l),
+(275,264,l),
+(197,264,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00391;
+}

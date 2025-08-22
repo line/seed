@@ -1,0 +1,64 @@
+{
+glyphname = "U-cy";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-13, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (761, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (38, 597);
+place = (38, 597);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(356,325,l),
+(81,754,ls),
+(78,759,o),
+(74,761,o),
+(69,761,cs),
+(43,761,ls),
+(38,761,o),
+(36,759,o),
+(39,754,cs),
+(336,296,l),
+(164,-6,ls),
+(161,-11,o),
+(163,-13,o),
+(168,-13,cs),
+(191,-13,ls),
+(196,-13,o),
+(200,-11,o),
+(203,-6,cs),
+(634,754,ls),
+(637,759,o),
+(635,761,o),
+(630,761,cs),
+(606,761,ls),
+(601,761,o),
+(597,759,o),
+(594,754,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 668;
+}
+);
+note = cid01079;
+unicode = 1059;
+}

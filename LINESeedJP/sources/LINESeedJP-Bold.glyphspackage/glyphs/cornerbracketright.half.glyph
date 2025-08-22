@@ -1,0 +1,43 @@
+{
+glyphname = cornerbracketright.half;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-82, 108);
+place = (-82, 108);
+type = Stem;
+},
+{
+place = (48, 277);
+place = (48, 277);
+type = Stem;
+},
+{
+place = (206, 119);
+place = (206, 119);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(48,26,l),
+(48,-82,l),
+(325,-82,l),
+(325,819,l),
+(206,819,l),
+(206,26,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00329;
+unicode = 65379;
+}

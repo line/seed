@@ -1,0 +1,47 @@
+{
+glyphname = underscore.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (340, 487);
+place = (340, 487);
+type = Stem;
+},
+{
+place = (-7, 31);
+place = (-7, 31);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-7,348,ls),
+(-7,344,o),
+(-3,340,o),
+(1,340,cs),
+(16,340,ls),
+(20,340,o),
+(24,344,o),
+(24,348,cs),
+(24,820,ls),
+(24,823,o),
+(20,827,o),
+(16,827,cs),
+(1,827,ls),
+(-3,827,o),
+(-7,823,o),
+(-7,820,cs)
+);
+}
+);
+vertWidth = 593;
+width = 1000;
+}
+);
+note = cid08783;
+}

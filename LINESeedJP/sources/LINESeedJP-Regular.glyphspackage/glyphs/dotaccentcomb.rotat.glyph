@@ -1,0 +1,43 @@
+{
+glyphname = dotaccentcomb.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (573, 114);
+place = (573, 114);
+type = Stem;
+},
+{
+place = (790, 107);
+place = (790, 107);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(872,573,o),
+(897,598,o),
+(897,630,cs),
+(897,662,o),
+(872,687,o),
+(843,687,cs),
+(815,687,o),
+(790,663,o),
+(790,630,cs),
+(790,597,o),
+(815,573,o),
+(843,573,cs)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid08850;
+}

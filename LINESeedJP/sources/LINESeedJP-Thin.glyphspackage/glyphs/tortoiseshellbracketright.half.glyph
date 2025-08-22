@@ -1,0 +1,39 @@
+{
+glyphname = tortoiseshellbracketright.half;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-96, 952);
+place = (-96, 952);
+type = Stem;
+},
+{
+place = (216, 34);
+place = (216, 34);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(216,41,l),
+(52,-56,l),
+(52,-96,l),
+(250,22,l),
+(250,738,l),
+(52,856,l),
+(52,816,l),
+(216,719,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00505;
+}

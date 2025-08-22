@@ -1,0 +1,47 @@
+{
+glyphname = bar.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (692, 84);
+place = (692, 84);
+type = Stem;
+},
+{
+place = (-1, 909);
+place = (-1, 909);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-1,703,ls),
+(-1,697,o),
+(4,692,o),
+(10,692,cs),
+(897,692,ls),
+(902,692,o),
+(908,697,o),
+(908,703,cs),
+(908,766,ls),
+(908,771,o),
+(902,776,o),
+(897,776,cs),
+(10,776,ls),
+(4,776,o),
+(-1,771,o),
+(-1,766,cs)
+);
+}
+);
+vertWidth = 327;
+width = 1000;
+}
+);
+note = cid08818;
+}

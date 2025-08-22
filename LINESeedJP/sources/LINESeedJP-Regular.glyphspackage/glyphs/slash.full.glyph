@@ -1,0 +1,48 @@
+{
+glyphname = slash.full;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-67, 894);
+place = (-67, 894);
+type = Stem;
+},
+{
+place = (54, 893);
+place = (54, 893);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(943,770,ls),
+(948,775,o),
+(948,781,o),
+(943,787,cs),
+(907,823,ls),
+(901,828,o),
+(895,828,o),
+(890,823,cs),
+(58,-10,l),
+(52,-15,o),
+(52,-21,o),
+(58,-27,cs),
+(94,-63,ls),
+(99,-68,o),
+(105,-68,o),
+(111,-63,c)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00663;
+unicode = 65295;
+}

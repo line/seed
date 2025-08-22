@@ -1,0 +1,119 @@
+{
+glyphname = miriSquare;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (0, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (533, -20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (781, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (564, 107);
+place = (564, 107);
+type = Stem;
+},
+{
+place = (817, 107);
+place = (817, 107);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (738, 87);
+place = (738, 87);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (98, 304);
+place = (98, 304);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(638,-96,l),
+(819,-68,o),
+(924,11,o),
+(924,180,cs),
+(924,403,l),
+(817,403,l),
+(817,183,ls),
+(817,105,o),
+(784,18,o),
+(574,0,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(508,441,l),
+(362,489,o),
+(211,515,o),
+(83,533,c),
+(43,445,l),
+(194,423,o),
+(351,391,o),
+(479,344,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(496,781,l),
+(377,807,o),
+(219,821,o),
+(109,825,c),
+(80,738,l),
+(262,727,o),
+(369,711,o),
+(472,687,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(564,402,l),
+(564,98,l),
+(671,98,l),
+(671,402,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(459,627,l),
+(354,656,o),
+(220,674,o),
+(124,683,c),
+(89,596,l),
+(195,587,o),
+(332,564,o),
+(431,533,c)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07585;
+unicode = 13129;
+}

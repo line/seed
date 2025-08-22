@@ -1,0 +1,57 @@
+{
+glyphname = "tusmall-hira.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-19, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (479, 34);
+place = (479, 34);
+type = Stem;
+},
+{
+place = (388, 35);
+place = (388, 35);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(159,-19,l),
+(331,-2,o),
+(423,107,o),
+(423,299,cs),
+(423,362,o),
+(407,513,o),
+(272,513,cs),
+(204,513,o),
+(126,478,o),
+(61,457,c),
+(73,420,l),
+(148,455,o),
+(230,479,o),
+(271,479,cs),
+(341,479,o),
+(388,412,o),
+(388,299,cs),
+(388,128,o),
+(309,27,o),
+(144,15,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00525;
+}

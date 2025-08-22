@@ -1,0 +1,43 @@
+{
+glyphname = righttriangle.full;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (42, 153);
+place = (42, 153);
+type = Stem;
+},
+{
+place = (672, 168);
+place = (672, 168);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(840,42,l),
+(840,803,l),
+(117,42,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(672,195,l),
+(431,195,l),
+(672,451,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07630;
+unicode = 8895;
+}

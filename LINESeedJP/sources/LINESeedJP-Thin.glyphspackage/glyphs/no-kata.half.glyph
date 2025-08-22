@@ -1,0 +1,46 @@
+{
+glyphname = "no-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-24, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (762, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (54, 360);
+place = (54, 360);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(89,-47,l),
+(267,109,o),
+(382,419,o),
+(414,756,c),
+(376,762,l),
+(343,381,o),
+(211,103,o),
+(54,-24,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00367;
+unicode = 65417;
+}

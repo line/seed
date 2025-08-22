@@ -1,0 +1,54 @@
+{
+glyphname = "ko-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (38, 36);
+place = (38, 36);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (666, 35);
+place = (666, 35);
+type = Stem;
+},
+{
+place = (394, 38);
+place = (394, 38);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-8, 82);
+place = (-8, 82);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(394,74,l),
+(78,74,l),
+(78,38,l),
+(394,38,l),
+(394,-8,l),
+(432,-8,l),
+(432,701,l),
+(83,701,l),
+(83,666,l),
+(394,666,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00352;
+unicode = 65402;
+}

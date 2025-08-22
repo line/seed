@@ -1,0 +1,83 @@
+{
+glyphname = "Softsign-cy";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-32, 120);
+place = (-32, 120);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (334, 121);
+place = (334, 121);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (769, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (88, 137);
+place = (88, 137);
+type = Stem;
+},
+{
+place = (531, 143);
+place = (531, 143);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(102,769,ls),
+(93,769,o),
+(88,764,o),
+(88,754,cs),
+(88,-18,ls),
+(88,-27,o),
+(93,-32,o),
+(102,-32,cs),
+(391,-32,ls),
+(577,-32,o),
+(674,68,o),
+(674,211,cs),
+(674,361,o),
+(568,455,o),
+(392,455,cs),
+(225,455,l),
+(225,754,ls),
+(225,764,o),
+(220,769,o),
+(211,769,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,88,l),
+(225,334,l),
+(378,334,ls),
+(482,334,o),
+(531,289,o),
+(531,213,cs),
+(531,137,o),
+(486,88,o),
+(375,88,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 727;
+}
+);
+note = cid01088;
+unicode = 1068;
+}

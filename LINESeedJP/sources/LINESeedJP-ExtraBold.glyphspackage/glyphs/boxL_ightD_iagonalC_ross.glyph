@@ -1,0 +1,44 @@
+{
+glyphname = boxLightDiagonalCross;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (39, 682);
+place = (39, 682);
+type = Stem;
+},
+{
+place = (159, 682);
+place = (159, 682);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(276,39,l),
+(500,262,l),
+(724,39,l),
+(841,157,l),
+(617,380,l),
+(841,604,l),
+(724,721,l),
+(499,497,l),
+(276,721,l),
+(159,604,l),
+(382,380,l),
+(159,157,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08263;
+unicode = 9587;
+}

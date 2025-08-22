@@ -1,0 +1,44 @@
+{
+glyphname = period.full;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-46, 76);
+place = (-46, 76);
+type = Stem;
+},
+{
+place = (111, 77);
+place = (111, 77);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(111,-30,o),
+(128,-46,o),
+(149,-46,cs),
+(171,-46,o),
+(188,-30,o),
+(188,-8,cs),
+(188,14,o),
+(171,30,o),
+(149,30,cs),
+(128,30,o),
+(111,14,o),
+(111,-8,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00637;
+unicode = 65294;
+}

@@ -1,0 +1,52 @@
+{
+glyphname = gradient.full;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (615, 129);
+place = (615, 129);
+type = Stem;
+},
+{
+place = (147, 708);
+place = (147, 708);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(491,-30,ls),
+(495,-40,o),
+(501,-41,o),
+(506,-31,cs),
+(853,730,l),
+(858,739,o),
+(854,744,o),
+(844,744,cs),
+(159,744,ls),
+(148,744,o),
+(145,739,o),
+(149,730,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(691,615,l),
+(519,236,l),
+(346,615,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00760;
+unicode = 8711;
+}

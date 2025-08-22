@@ -1,0 +1,50 @@
+{
+glyphname = emdash;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (249, 133);
+place = (249, 133);
+type = Stem;
+},
+{
+place = (0, 1000);
+place = (0, 1000);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(986,249,ls),
+(995,249,o),
+(1000,254,o),
+(1000,263,cs),
+(1000,368,ls),
+(1000,377,o),
+(995,382,o),
+(986,382,cs),
+(14,382,ls),
+(5,382,o),
+(0,377,o),
+(0,368,cs),
+(0,263,ls),
+(0,254,o),
+(5,249,o),
+(14,249,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00138;
+unicode = (822,8212);
+}

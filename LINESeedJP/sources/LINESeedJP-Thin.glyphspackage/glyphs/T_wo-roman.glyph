@@ -1,0 +1,80 @@
+{
+glyphname = "Two-roman";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-3, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (771, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (308, 33);
+place = (308, 33);
+type = Stem;
+},
+{
+place = (659, 33);
+place = (659, 33);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(659,6,ls),
+(659,0,o),
+(662,-3,o),
+(668,-3,cs),
+(683,-3,ls),
+(689,-3,o),
+(692,0,o),
+(692,6,cs),
+(692,762,ls),
+(692,768,o),
+(689,771,o),
+(683,771,cs),
+(668,771,ls),
+(662,771,o),
+(659,768,o),
+(659,762,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(308,6,ls),
+(308,0,o),
+(311,-3,o),
+(317,-3,cs),
+(332,-3,ls),
+(338,-3,o),
+(341,0,o),
+(341,6,cs),
+(341,762,ls),
+(341,768,o),
+(338,771,o),
+(332,771,cs),
+(317,771,ls),
+(311,771,o),
+(308,768,o),
+(308,762,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07576;
+unicode = 8545;
+}

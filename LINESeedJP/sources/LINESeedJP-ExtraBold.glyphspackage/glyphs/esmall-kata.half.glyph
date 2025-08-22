@@ -1,0 +1,60 @@
+{
+glyphname = "esmall-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-34, 150.5);
+place = (-34, 150.5);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (439.5, 145.5);
+place = (439.5, 145.5);
+type = Stem;
+},
+{
+place = (181, 136);
+place = (181, 136);
+type = Stem;
+},
+{
+place = (181, 246);
+place = (181, 246);
+type = Stem;
+},
+{
+place = (70, 247);
+place = (70, 247);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(181,116,l),
+(55,117,l),
+(55,-34,l),
+(445,-34,l),
+(445,117,l),
+(317,116,l),
+(317,440,l),
+(427,439,l),
+(427,585,l),
+(70,585,l),
+(70,439,l),
+(181,440,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00336;
+unicode = 65386;
+}

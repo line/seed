@@ -1,0 +1,48 @@
+{
+glyphname = grave.full;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (592, 139);
+place = (592, 139);
+type = Stem;
+},
+{
+place = (435, 130);
+place = (435, 130);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(439,731,ls),
+(434,731,o),
+(433,729,o),
+(436,725,cs),
+(527,598,ls),
+(530,594,o),
+(534,592,o),
+(539,592,cs),
+(560,592,ls),
+(566,592,o),
+(567,594,o),
+(564,599,cs),
+(482,724,ls),
+(479,729,o),
+(475,731,o),
+(469,731,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00646;
+unicode = 65344;
+}

@@ -1,0 +1,36 @@
+{
+glyphname = leftSevenEighthsBlock;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-120, 1000);
+place = (-120, 1000);
+type = Stem;
+},
+{
+place = (0, 875);
+place = (0, 875);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,880,l),
+(0,-120,l),
+(875,-120,l),
+(875,880,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08244;
+unicode = 9609;
+}

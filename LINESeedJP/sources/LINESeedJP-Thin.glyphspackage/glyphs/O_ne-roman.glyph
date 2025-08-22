@@ -1,0 +1,54 @@
+{
+glyphname = "One-roman";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-3, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (771, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (484, 33);
+place = (484, 33);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,6,ls),
+(484,0,o),
+(487,-3,o),
+(493,-3,cs),
+(508,-3,ls),
+(514,-3,o),
+(517,0,o),
+(517,6,cs),
+(517,762,ls),
+(517,768,o),
+(514,771,o),
+(508,771,cs),
+(493,771,ls),
+(487,771,o),
+(484,768,o),
+(484,762,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07575;
+unicode = 8544;
+}

@@ -1,0 +1,65 @@
+{
+glyphname = boxHeavyQuadrupleDashHorizontal.half.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (463, 83);
+place = (463, 83);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (630, 83);
+place = (630, 83);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (797, 83);
+place = (797, 83);
+type = Stem;
+},
+{
+place = (455, 90);
+place = (455, 90);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(455,463,l),
+(545,463,l),
+(545,546,l),
+(455,546,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(455,797,l),
+(545,797,l),
+(545,880,l),
+(455,880,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(455,630,l),
+(545,630,l),
+(545,713,l),
+(455,713,l)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09286;
+}

@@ -1,0 +1,44 @@
+{
+glyphname = lowquotedoubleprime.half;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-86, 426);
+place = (-86, 426);
+type = Stem;
+},
+{
+place = (58, 223);
+place = (58, 223);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(58,191,l),
+(58,120,l),
+(281,-86,l),
+(281,50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(58,340,l),
+(58,276,l),
+(281,117,l),
+(281,246,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00424;
+}

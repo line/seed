@@ -1,0 +1,99 @@
+{
+glyphname = "no-hira.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-15, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (23, 37);
+place = (23, 37);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (707, 33);
+place = (707, 33);
+type = Stem;
+},
+{
+place = (33, 34);
+place = (33, 34);
+type = Stem;
+},
+{
+place = (244, 35);
+place = (244, 35);
+type = Stem;
+},
+{
+place = (435, 36);
+place = (435, 36);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (706, 34);
+place = (706, 34);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(252,-48,l),
+(425,4,o),
+(471,218,o),
+(471,368,cs),
+(471,540,o),
+(425,740,o),
+(267,740,cs),
+(80,740,o),
+(33,414,o),
+(33,280,cs),
+(33,98,o),
+(81,23,o),
+(126,23,cs),
+(149,23,o),
+(172,44,o),
+(187,82,cs),
+(226,183,o),
+(262,486,o),
+(279,707,c),
+(361,697,o),
+(435,607,o),
+(435,377,cs),
+(435,368,ls),
+(435,247,o),
+(404,26,o),
+(233,-15,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(234,522,o),
+(186,60,o),
+(126,60,cs),
+(102,60,o),
+(67,134,o),
+(67,275,cs),
+(67,485,o),
+(140,684,o),
+(244,706,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00550;
+}

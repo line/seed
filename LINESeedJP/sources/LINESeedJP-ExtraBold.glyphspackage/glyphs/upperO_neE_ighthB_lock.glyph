@@ -1,0 +1,36 @@
+{
+glyphname = upperOneEighthBlock;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (755, 125);
+place = (755, 125);
+type = Stem;
+},
+{
+place = (0, 1000);
+place = (0, 1000);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1000,880,l),
+(0,880,l),
+(0,755,l),
+(1000,755,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08245;
+unicode = 9620;
+}

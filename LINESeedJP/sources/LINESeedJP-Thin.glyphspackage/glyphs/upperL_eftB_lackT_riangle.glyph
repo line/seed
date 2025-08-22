@@ -1,0 +1,35 @@
+{
+glyphname = upperLeftBlackTriangle;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-119, 999);
+place = (-119, 999);
+type = Stem;
+},
+{
+place = (0, 1000);
+place = (0, 1000);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1000,880,l),
+(0,880,l),
+(0,-119,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08258;
+unicode = 9700;
+}

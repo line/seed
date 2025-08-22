@@ -1,0 +1,59 @@
+{
+glyphname = "ge-cy";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-13, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (476, 30);
+place = (476, 30);
+type = Stem;
+},
+{
+place = (75, 31);
+place = (75, 31);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(83,506,ls),
+(78,506,o),
+(75,503,o),
+(75,498,cs),
+(75,-5,ls),
+(75,-10,o),
+(78,-13,o),
+(83,-13,cs),
+(98,-13,ls),
+(103,-13,o),
+(106,-10,o),
+(106,-5,cs),
+(106,476,l),
+(398,476,ls),
+(403,476,o),
+(406,479,o),
+(406,484,cs),
+(406,498,ls),
+(406,503,o),
+(403,506,o),
+(398,506,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 406;
+}
+);
+note = cid01095;
+unicode = 1075;
+}

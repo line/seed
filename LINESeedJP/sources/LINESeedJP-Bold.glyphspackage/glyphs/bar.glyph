@@ -1,0 +1,48 @@
+{
+glyphname = bar;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (775, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (93, 141);
+place = (93, 141);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,-156,ls),
+(227,-156,o),
+(234,-150,o),
+(234,-142,cs),
+(234,761,ls),
+(234,769,o),
+(227,775,o),
+(220,775,cs),
+(107,775,ls),
+(100,775,o),
+(93,769,o),
+(93,761,cs),
+(93,-142,ls),
+(93,-150,o),
+(100,-156,o),
+(107,-156,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 327;
+}
+);
+note = cid00099;
+unicode = 124;
+}

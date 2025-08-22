@@ -1,0 +1,48 @@
+{
+glyphname = blackDiamond;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-79, 918);
+place = (-79, 918);
+type = Stem;
+},
+{
+place = (44, 913);
+place = (44, 913);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(953,372,ls),
+(958,377,o),
+(958,383,o),
+(953,389,cs),
+(509,835,l),
+(503,840,o),
+(497,840,o),
+(492,835,cs),
+(48,389,ls),
+(42,383,o),
+(42,377,o),
+(48,372,c),
+(492,-75,ls),
+(497,-80,o),
+(503,-80,o),
+(509,-75,c)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00727;
+unicode = 9670;
+}

@@ -1,0 +1,58 @@
+{
+glyphname = "ha-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-18, 21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (98, 138);
+place = (98, 138);
+type = Stem;
+},
+{
+place = (340, 150);
+place = (340, 150);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,42,l),
+(478,258,o),
+(437,545,o),
+(392,766,c),
+(259,726,l),
+(304,514,o),
+(328,230,o),
+(340,-18,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(98,755,l),
+(93,503,o),
+(59,207,o),
+(8,41,c),
+(155,-33,l),
+(209,162,o),
+(229,514,o),
+(236,734,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00368;
+unicode = 65418;
+}

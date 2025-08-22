@@ -1,0 +1,48 @@
+{
+glyphname = dblanglebracketleft.half.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (424, 349);
+place = (424, 349);
+type = Stem;
+},
+{
+place = (23, 955);
+place = (23, 955);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,622,l),
+(978,424,l),
+(978,474,l),
+(500,672,l),
+(23,474,l),
+(23,424,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(500,724,l),
+(978,525,l),
+(978,573,l),
+(500,773,l),
+(23,575,l),
+(23,525,l)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09269;
+}

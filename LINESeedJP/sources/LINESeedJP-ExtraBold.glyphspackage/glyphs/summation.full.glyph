@@ -1,0 +1,54 @@
+{
+glyphname = summation.full;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-64, 173.5);
+place = (-64, 173.5);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (640, 171);
+place = (640, 171);
+type = Stem;
+},
+{
+place = (148, 692);
+place = (148, 692);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(508,376,l),
+(148,108,l),
+(148,-64,l),
+(840,-64,l),
+(840,110,l),
+(436,109,l),
+(513,159,l),
+(713,293,l),
+(713,445,l),
+(521,594,l),
+(457,642,l),
+(547,640,l),
+(815,640,l),
+(815,811,l),
+(176,811,l),
+(176,647,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07625;
+unicode = 8721;
+}

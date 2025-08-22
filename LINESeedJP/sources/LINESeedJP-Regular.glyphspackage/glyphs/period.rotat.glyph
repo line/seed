@@ -1,0 +1,43 @@
+{
+glyphname = period.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (696, 123);
+place = (696, 123);
+type = Stem;
+},
+{
+place = (104, 121);
+place = (104, 121);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(104,723,o),
+(130,696,o),
+(165,696,cs),
+(200,696,o),
+(225,723,o),
+(225,757,cs),
+(225,792,o),
+(200,819,o),
+(165,819,cs),
+(130,819,o),
+(104,792,o),
+(104,757,cs)
+);
+}
+);
+vertWidth = 292;
+width = 1000;
+}
+);
+note = cid08734;
+}

@@ -1,0 +1,49 @@
+{
+glyphname = getamark.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-19, 21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (101, 298);
+place = (101, 298);
+type = Stem;
+},
+{
+place = (601, 298);
+place = (601, 298);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(399,779,l),
+(101,779,l),
+(101,-19,l),
+(399,-19,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(899,779,l),
+(601,779,l),
+(601,-19,l),
+(899,-19,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08270;
+}

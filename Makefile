@@ -3,10 +3,10 @@ CONFIG_FILES=\
 METADATA_FILES=\
 	LINESeedJP/sources/METADATA.pb
 SOURCES=\
-	LINESeedJP/sources/LINESeedJP-Thin.glyphs \
-	LINESeedJP/sources/LINESeedJP-Regular.glyphs \
-	LINESeedJP/sources/LINESeedJP-Bold.glyphs \
-	LINESeedJP/sources/LINESeedJP-ExtraBold.glyphs
+	LINESeedJP/sources/LINESeedJP-Thin.glyphspackage \
+	LINESeedJP/sources/LINESeedJP-Regular.glyphspackage \
+	LINESeedJP/sources/LINESeedJP-Bold.glyphspackage \
+	LINESeedJP/sources/LINESeedJP-ExtraBold.glyphspackage
 TTF_OUTPUTS=\
 	LINESeedJP/fonts/ttf
 

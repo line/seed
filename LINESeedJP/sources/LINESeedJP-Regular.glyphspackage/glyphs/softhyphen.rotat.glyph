@@ -1,0 +1,47 @@
+{
+glyphname = softhyphen.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (463, 334);
+place = (463, 334);
+type = Stem;
+},
+{
+place = (425, 76);
+place = (425, 76);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(425,473,ls),
+(425,467,o),
+(428,463,o),
+(436,463,cs),
+(490,463,ls),
+(498,463,o),
+(501,467,o),
+(501,473,cs),
+(501,787,ls),
+(501,793,o),
+(498,797,o),
+(490,797,cs),
+(436,797,ls),
+(428,797,o),
+(425,793,o),
+(425,787,cs)
+);
+}
+);
+vertWidth = 504;
+width = 1000;
+}
+);
+note = cid08870;
+}

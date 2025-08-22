@@ -1,0 +1,85 @@
+{
+glyphname = theta;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-37, 74);
+place = (-37, 74);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (338, 71);
+place = (338, 71);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (706, 74);
+place = (706, 74);
+type = Stem;
+},
+{
+place = (62, 84);
+place = (62, 84);
+type = Stem;
+},
+{
+place = (540, 85);
+place = (540, 85);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(173,780,o),
+(62,624,o),
+(62,371,cs),
+(62,118,o),
+(173,-37,o),
+(343,-37,cs),
+(514,-37,o),
+(625,118,o),
+(625,371,cs),
+(625,624,o),
+(514,780,o),
+(343,780,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,37,o),
+(154,154,o),
+(146,338,c),
+(540,338,l),
+(533,154,o),
+(462,37,o),
+(343,37,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(461,706,o),
+(532,591,o),
+(540,409,c),
+(146,409,l),
+(155,590,o),
+(226,706,o),
+(343,706,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 686;
+}
+);
+note = cid01042;
+unicode = 952;
+}

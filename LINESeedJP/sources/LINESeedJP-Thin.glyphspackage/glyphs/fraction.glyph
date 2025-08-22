@@ -1,0 +1,54 @@
+{
+glyphname = fraction;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-13, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (761, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (-206, 517);
+place = (-206, 517);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-205,-2,l),
+(-208,-8,o),
+(-206,-13,o),
+(-199,-13,cs),
+(-181,-13,ls),
+(-177,-13,o),
+(-175,-12,o),
+(-172,-8,cs),
+(310,751,ls),
+(313,756,o),
+(311,761,o),
+(305,761,cs),
+(287,761,ls),
+(282,761,o),
+(281,760,o),
+(277,756,c)
+);
+}
+);
+vertWidth = 1000;
+width = 106;
+}
+);
+note = cid00104;
+unicode = 8260;
+}

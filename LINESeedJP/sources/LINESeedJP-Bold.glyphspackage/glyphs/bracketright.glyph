@@ -1,0 +1,70 @@
+{
+glyphname = bracketright;
+kernLeft = parenright;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-199, 130);
+place = (-199, 130);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (689, 130);
+place = (689, 130);
+type = Stem;
+},
+{
+place = (22, 281);
+place = (22, 281);
+type = Stem;
+},
+{
+place = (160, 143);
+place = (160, 143);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(289,-199,ls),
+(298,-199,o),
+(303,-194,o),
+(303,-185,cs),
+(303,804,ls),
+(303,813,o),
+(298,819,o),
+(289,819,cs),
+(36,819,ls),
+(27,819,o),
+(22,813,o),
+(22,804,cs),
+(22,703,ls),
+(22,694,o),
+(27,689,o),
+(36,689,cs),
+(160,689,l),
+(160,-69,l),
+(36,-69,ls),
+(27,-69,o),
+(22,-75,o),
+(22,-84,cs),
+(22,-185,ls),
+(22,-194,o),
+(27,-199,o),
+(36,-199,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 377;
+}
+);
+note = cid00062;
+unicode = 93;
+}

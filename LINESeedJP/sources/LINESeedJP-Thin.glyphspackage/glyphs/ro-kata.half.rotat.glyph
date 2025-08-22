@@ -1,0 +1,59 @@
+{
+glyphname = "ro-kata.half.rotat";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (449, 36);
+place = (449, 36);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (775, 36);
+place = (775, 36);
+type = Stem;
+},
+{
+place = (161, 34);
+place = (161, 34);
+type = Stem;
+},
+{
+place = (794, 33);
+place = (794, 33);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(161,485,l),
+(116,485,l),
+(116,449,l),
+(827,449,l),
+(827,811,l),
+(113,811,l),
+(113,775,l),
+(161,775,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(794,775,l),
+(794,485,l),
+(195,485,l),
+(195,775,l)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09143;
+}

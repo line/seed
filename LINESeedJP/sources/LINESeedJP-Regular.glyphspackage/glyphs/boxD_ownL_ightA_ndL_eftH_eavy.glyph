@@ -1,0 +1,38 @@
+{
+glyphname = boxDownLightAndLeftHeavy;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (335, 90);
+place = (335, 90);
+type = Stem;
+},
+{
+place = (483, 34);
+place = (483, 34);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(483,-120,l),
+(517,-120,l),
+(517,425,l),
+(0,425,l),
+(0,335,l),
+(483,335,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07496;
+unicode = 9489;
+}

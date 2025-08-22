@@ -1,0 +1,72 @@
+{
+glyphname = ordmasculine;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (321, 71);
+place = (321, 71);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (706, 70);
+place = (706, 70);
+type = Stem;
+},
+{
+place = (45, 78);
+place = (45, 78);
+type = Stem;
+},
+{
+place = (405, 78);
+place = (405, 78);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(133,776,o),
+(45,681,o),
+(45,549,cs),
+(45,416,o),
+(133,321,o),
+(264,321,cs),
+(396,321,o),
+(483,416,o),
+(483,549,cs),
+(483,681,o),
+(396,776,o),
+(264,776,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(347,706,o),
+(405,642,o),
+(405,549,cs),
+(405,455,o),
+(347,392,o),
+(264,392,cs),
+(181,392,o),
+(123,455,o),
+(123,549,cs),
+(123,642,o),
+(181,706,o),
+(264,706,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 528;
+}
+);
+note = cid00144;
+unicode = 186;
+}

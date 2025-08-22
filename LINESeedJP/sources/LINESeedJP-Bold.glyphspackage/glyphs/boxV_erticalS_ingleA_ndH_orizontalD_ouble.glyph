@@ -1,0 +1,58 @@
+{
+glyphname = boxVerticalSingleAndHorizontalDouble;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (150, 125);
+place = (150, 125);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (483, 125);
+place = (483, 125);
+type = Stem;
+},
+{
+place = (437, 125);
+place = (437, 125);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(562,-119,l),
+(562,150,l),
+(1000,150,l),
+(1000,275,l),
+(562,275,l),
+(562,483,l),
+(1000,483,l),
+(1000,608,l),
+(562,608,l),
+(562,880,l),
+(437,880,l),
+(437,608,l),
+(0,608,l),
+(0,483,l),
+(437,483,l),
+(437,275,l),
+(0,275,l),
+(0,150,l),
+(437,150,l),
+(437,-119,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08253;
+unicode = 9578;
+}

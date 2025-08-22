@@ -1,0 +1,47 @@
+{
+glyphname = commaaccentcomb;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-169, 71);
+place = (-169, 71);
+type = Stem;
+},
+{
+place = (246, 74);
+place = (246, 74);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(237,-279,l),
+(260,-279,l),
+(306,-182,ls),
+(315,-162,o),
+(320,-151,o),
+(320,-134,cs),
+(320,-113,o),
+(304,-98,o),
+(283,-98,cs),
+(263,-98,o),
+(246,-113,o),
+(246,-134,cs),
+(246,-153,o),
+(260,-166,o),
+(280,-169,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid25807;
+unicode = 806;
+}

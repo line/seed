@@ -1,0 +1,43 @@
+{
+glyphname = blackCircle.alt;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-64, 889);
+place = (-64, 889);
+type = Stem;
+},
+{
+place = (55, 890);
+place = (55, 890);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(945,626,o),
+(746,825,o),
+(500,825,cs),
+(254,825,o),
+(55,626,o),
+(55,380,cs),
+(55,134,o),
+(254,-64,o),
+(500,-64,cs),
+(746,-64,o),
+(945,134,o),
+(945,380,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08259;
+}

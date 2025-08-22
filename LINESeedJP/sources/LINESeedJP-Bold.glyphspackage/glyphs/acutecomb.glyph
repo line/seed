@@ -1,0 +1,48 @@
+{
+glyphname = acutecomb;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (597, 173);
+place = (597, 173);
+type = Stem;
+},
+{
+place = (84, 239);
+place = (84, 239);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,770,ls),
+(177,770,o),
+(172,767,o),
+(168,760,cs),
+(86,612,ls),
+(82,604,o),
+(84,597,o),
+(95,597,cs),
+(200,597,ls),
+(207,597,o),
+(213,599,o),
+(217,606,cs),
+(321,756,ls),
+(326,763,o),
+(324,770,o),
+(313,770,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 392;
+}
+);
+note = cid00127;
+unicode = 769;
+}

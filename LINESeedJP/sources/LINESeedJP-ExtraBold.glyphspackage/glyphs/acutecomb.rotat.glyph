@@ -1,0 +1,35 @@
+{
+glyphname = acutecomb.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (442, 356);
+place = (442, 356);
+type = Stem;
+},
+{
+place = (750, 203);
+place = (750, 203);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(953,657,l),
+(750,798,l),
+(750,623,l),
+(953,442,l)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid08846;
+}

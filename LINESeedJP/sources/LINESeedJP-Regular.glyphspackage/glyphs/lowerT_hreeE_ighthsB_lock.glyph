@@ -1,0 +1,36 @@
+{
+glyphname = lowerThreeEighthsBlock;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-120, 375);
+place = (-120, 375);
+type = Stem;
+},
+{
+place = (0, 1000);
+place = (0, 1000);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,-120,l),
+(1000,-120,l),
+(1000,255,l),
+(0,255,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08232;
+unicode = 9603;
+}

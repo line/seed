@@ -1,0 +1,35 @@
+{
+glyphname = quoteleft.half.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (436, 137);
+place = (436, 137);
+type = Stem;
+},
+{
+place = (669, 208);
+place = (669, 208);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(877,469,l),
+(669,573,l),
+(669,513,l),
+(877,436,l)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09014;
+}

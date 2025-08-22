@@ -1,0 +1,39 @@
+{
+glyphname = perpendicular.mac;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (43, 67);
+place = (43, 67);
+type = Stem;
+},
+{
+place = (465, 70);
+place = (465, 70);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(172,43,l),
+(828,43,l),
+(828,110,l),
+(535,110,l),
+(535,714,l),
+(465,714,l),
+(465,110,l),
+(172,110,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07627;
+}

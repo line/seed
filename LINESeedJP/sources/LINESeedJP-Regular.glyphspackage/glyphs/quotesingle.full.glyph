@@ -1,0 +1,48 @@
+{
+glyphname = quotesingle.full;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (509, 242);
+place = (509, 242);
+type = Stem;
+},
+{
+place = (465, 83);
+place = (465, 83);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(528,509,ls),
+(534,509,o),
+(538,513,o),
+(538,518,cs),
+(548,741,ls),
+(548,748,o),
+(545,751,o),
+(538,751,cs),
+(475,751,ls),
+(469,751,o),
+(465,748,o),
+(465,741,cs),
+(475,518,ls),
+(475,513,o),
+(479,509,o),
+(485,509,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08006;
+unicode = 65287;
+}

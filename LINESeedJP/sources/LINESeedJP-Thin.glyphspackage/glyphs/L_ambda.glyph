@@ -1,0 +1,63 @@
+{
+glyphname = Lambda;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-13, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (726, 35);
+place = (726, 35);
+type = Stem;
+},
+{
+place = (32, 657);
+place = (32, 657);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(361,726,l),
+(655,-7,ls),
+(657,-12,o),
+(661,-13,o),
+(666,-13,cs),
+(682,-13,ls),
+(688,-13,o),
+(690,-9,o),
+(688,-4,cs),
+(384,755,ls),
+(382,760,o),
+(378,761,o),
+(373,761,cs),
+(347,761,ls),
+(343,761,o),
+(339,760,o),
+(337,755,cs),
+(33,-4,ls),
+(31,-9,o),
+(33,-13,o),
+(39,-13,cs),
+(57,-13,ls),
+(61,-13,o),
+(65,-12,o),
+(68,-7,c)
+);
+}
+);
+vertWidth = 1000;
+width = 721;
+}
+);
+note = cid01021;
+unicode = 923;
+}

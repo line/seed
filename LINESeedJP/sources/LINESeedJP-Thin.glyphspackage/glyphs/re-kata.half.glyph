@@ -1,0 +1,42 @@
+{
+glyphname = "re-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (766, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (102, 37);
+place = (102, 37);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,765,l),
+(102,766,l),
+(102,-37,l),
+(332,32,o),
+(427,309,o),
+(465,456,c),
+(430,480,l),
+(380,255,o),
+(267,71,o),
+(138,17,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00384;
+unicode = 65434;
+}

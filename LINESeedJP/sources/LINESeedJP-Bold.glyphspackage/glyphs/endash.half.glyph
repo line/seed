@@ -1,0 +1,35 @@
+{
+glyphname = endash.half;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (327, 106);
+place = (327, 106);
+type = Stem;
+},
+{
+place = (0, 500);
+place = (0, 500);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,433,l),
+(0,327,l),
+(500,327,l),
+(500,433,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00514;
+}

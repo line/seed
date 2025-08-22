@@ -1,0 +1,65 @@
+{
+glyphname = boxLightTripleDashHorizontal.half.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (421, 125);
+place = (421, 125);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (588, 125);
+place = (588, 125);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (755, 125);
+place = (755, 125);
+type = Stem;
+},
+{
+place = (483, 34);
+place = (483, 34);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(483,546,l),
+(483,421,l),
+(517,421,l),
+(517,546,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(483,880,l),
+(483,755,l),
+(517,755,l),
+(517,880,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(483,713,l),
+(483,588,l),
+(517,588,l),
+(517,713,l)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09281;
+}

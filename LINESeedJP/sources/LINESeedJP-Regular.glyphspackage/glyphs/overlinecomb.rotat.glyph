@@ -1,0 +1,47 @@
+{
+glyphname = overlinecomb.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (327, 504);
+place = (327, 504);
+type = Stem;
+},
+{
+place = (991, 76);
+place = (991, 76);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(991,339,ls),
+(991,331,o),
+(995,327,o),
+(1003,327,cs),
+(1055,327,ls),
+(1063,327,o),
+(1067,331,o),
+(1067,339,cs),
+(1067,819,ls),
+(1067,827,o),
+(1063,831,o),
+(1055,831,cs),
+(1003,831,ls),
+(995,831,o),
+(991,827,o),
+(991,819,cs)
+);
+}
+);
+vertWidth = 613;
+width = 1000;
+}
+);
+note = cid08945;
+}

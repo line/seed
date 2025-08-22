@@ -1,0 +1,39 @@
+{
+glyphname = "comma-han.half.rotat";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (585, 258);
+place = (585, 258);
+type = Stem;
+},
+{
+place = (33, 302);
+place = (33, 302);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(94,585,l),
+(197,632,o),
+(283,693,o),
+(335,750,c),
+(282,843,l),
+(222,787,o),
+(144,732,o),
+(33,691,c)
+);
+}
+);
+vertWidth = 500;
+width = 1000;
+}
+);
+note = cid09088;
+}

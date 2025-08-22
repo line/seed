@@ -1,0 +1,35 @@
+{
+glyphname = quoteleft.half;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (455, 356);
+place = (455, 356);
+type = Stem;
+},
+{
+place = (224, 259);
+place = (224, 259);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(364,811,l),
+(224,455,l),
+(398,455,l),
+(483,811,l)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00295;
+}

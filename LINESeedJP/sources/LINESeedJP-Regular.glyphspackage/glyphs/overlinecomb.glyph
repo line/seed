@@ -1,0 +1,48 @@
+{
+glyphname = overlinecomb;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (851, 76);
+place = (851, 76);
+type = Stem;
+},
+{
+place = (49, 504);
+place = (49, 504);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(541,851,ls),
+(549,851,o),
+(553,855,o),
+(553,863,cs),
+(553,915,ls),
+(553,923,o),
+(549,927,o),
+(541,927,cs),
+(61,927,ls),
+(53,927,o),
+(49,923,o),
+(49,915,cs),
+(49,863,ls),
+(49,855,o),
+(53,851,o),
+(61,851,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 613;
+}
+);
+note = cid00226;
+unicode = (773,8254);
+}

@@ -1,0 +1,64 @@
+{
+glyphname = "mu-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-13, 21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (32, 435);
+place = (32, 435);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-21, 21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(41,-13,l),
+(136,6,o),
+(281,35,o),
+(408,79,c),
+(433,-21,l),
+(467,1,l),
+(440,115,o),
+(370,331,o),
+(333,419,c),
+(300,401,l),
+(324,343,o),
+(365,230,o),
+(400,110,c),
+(337,91,o),
+(240,66,o),
+(127,42,c),
+(168,224,o),
+(225,575,o),
+(247,741,c),
+(206,750,l),
+(190,594,o),
+(138,281,o),
+(90,36,c),
+(67,31,o),
+(48,29,o),
+(32,27,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00375;
+unicode = 65425;
+}

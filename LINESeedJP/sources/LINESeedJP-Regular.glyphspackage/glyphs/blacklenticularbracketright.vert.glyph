@@ -1,0 +1,53 @@
+{
+glyphname = blacklenticularbracketright.vert;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (549, 110);
+place = (549, 110);
+type = Stem;
+},
+{
+place = (45, 910);
+place = (45, 910);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(943,549,ls),
+(951,549,o),
+(955,553,o),
+(955,561,cs),
+(955,836,ls),
+(955,847,o),
+(948,850,o),
+(941,840,cs),
+(853,719,o),
+(679,659,o),
+(500,659,cs),
+(320,659,o),
+(155,720,o),
+(59,842,cs),
+(52,851,o),
+(45,848,o),
+(45,837,cs),
+(45,561,ls),
+(45,553,o),
+(49,549,o),
+(57,549,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07916;
+unicode = 65084;
+}

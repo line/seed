@@ -1,0 +1,49 @@
+{
+glyphname = leftcurlybracketlowerhook;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (0, 171);
+place = (0, 171);
+type = Stem;
+},
+{
+place = (405, 191);
+place = (405, 191);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(712,0,o),
+(719,7,o),
+(719,19,cs),
+(719,152,ls),
+(719,164,o),
+(712,171,o),
+(700,171,cs),
+(698,171,ls),
+(613,171,o),
+(596,205,o),
+(596,273,cs),
+(596,880,l),
+(405,880,l),
+(405,257,ls),
+(405,62,o),
+(476,0,o),
+(696,0,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08180;
+unicode = 9129;
+}

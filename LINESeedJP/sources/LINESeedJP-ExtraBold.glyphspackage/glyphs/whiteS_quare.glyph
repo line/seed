@@ -1,0 +1,68 @@
+{
+glyphname = whiteSquare;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-42, 119);
+place = (-42, 119);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (682, 119);
+place = (682, 119);
+type = Stem;
+},
+{
+place = (79, 119);
+place = (79, 119);
+type = Stem;
+},
+{
+place = (802, 120);
+place = (802, 120);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(903,-42,ls),
+(915,-42,o),
+(922,-35,o),
+(922,-23,cs),
+(922,782,ls),
+(922,795,o),
+(915,801,o),
+(903,801,cs),
+(98,801,ls),
+(85,801,o),
+(79,795,o),
+(79,782,cs),
+(79,-23,ls),
+(79,-35,o),
+(85,-42,o),
+(98,-42,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(802,682,l),
+(802,77,l),
+(198,77,l),
+(198,682,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00728;
+unicode = 9633;
+}

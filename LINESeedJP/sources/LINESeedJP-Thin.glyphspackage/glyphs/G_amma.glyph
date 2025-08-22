@@ -1,0 +1,59 @@
+{
+glyphname = Gamma;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-21, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (727, 32);
+place = (727, 32);
+type = Stem;
+},
+{
+place = (75, 34);
+place = (75, 34);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(83,759,ls),
+(78,759,o),
+(75,756,o),
+(75,751,cs),
+(75,-13,ls),
+(75,-18,o),
+(78,-21,o),
+(83,-21,cs),
+(101,-21,ls),
+(106,-21,o),
+(109,-18,o),
+(109,-13,cs),
+(109,727,l),
+(511,727,ls),
+(516,727,o),
+(519,730,o),
+(519,735,cs),
+(519,751,ls),
+(519,756,o),
+(516,759,o),
+(511,759,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 519;
+}
+);
+note = cid01013;
+unicode = 915;
+}

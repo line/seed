@@ -1,0 +1,44 @@
+{
+glyphname = bullet;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (144, 311);
+place = (144, 311);
+type = Stem;
+},
+{
+place = (69, 310);
+place = (69, 310);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(309,144,o),
+(379,214,o),
+(379,300,cs),
+(379,385,o),
+(309,455,o),
+(224,455,cs),
+(139,455,o),
+(69,385,o),
+(69,300,cs),
+(69,214,o),
+(139,144,o),
+(224,144,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 448;
+}
+);
+note = cid00119;
+unicode = 8226;
+}

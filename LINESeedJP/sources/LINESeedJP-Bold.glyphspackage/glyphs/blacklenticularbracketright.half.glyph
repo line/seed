@@ -1,0 +1,40 @@
+{
+glyphname = blacklenticularbracketright.half;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-95, 950);
+place = (-95, 950);
+type = Stem;
+},
+{
+place = (179, 140);
+place = (179, 140);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(319,-95,l),
+(319,855,l),
+(36,855,l),
+(132,745,o),
+(179,583,o),
+(179,380,cs),
+(179,174,o),
+(133,16,o),
+(36,-94,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00513;
+}

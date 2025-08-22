@@ -1,0 +1,50 @@
+{
+glyphname = rightcurlybracketupperhook;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (731, 28);
+place = (731, 28);
+type = Stem;
+},
+{
+place = (485, 30);
+place = (485, 30);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(485,-120,l),
+(515,-120,l),
+(515,576,ls),
+(515,700,o),
+(435,759,o),
+(312,759,cs),
+(308,759,ls),
+(302,759,o),
+(299,756,o),
+(299,750,cs),
+(299,740,ls),
+(299,734,o),
+(302,731,o),
+(308,731,cs),
+(314,731,ls),
+(428,731,o),
+(485,668,o),
+(485,565,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08174;
+unicode = 9131;
+}

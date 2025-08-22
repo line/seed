@@ -1,0 +1,52 @@
+{
+glyphname = "voiced-kana.vert";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-115, 283);
+place = (-115, 283);
+type = Stem;
+},
+{
+place = (665, 316);
+place = (665, 316);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(981,32,l),
+(953,73,o),
+(896,135,o),
+(857,168,c),
+(778,115,l),
+(818,77,o),
+(869,14,o),
+(902,-29,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(867,-51,l),
+(834,-2,o),
+(779,59,o),
+(745,93,c),
+(665,38,l),
+(703,-2,o),
+(756,-68,o),
+(786,-115,c)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08272;
+}

@@ -1,0 +1,48 @@
+{
+glyphname = idotless;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (524, -20);
+target = down;
+type = TopGhost;
+},
+{
+place = (74, 143);
+place = (74, 143);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(74,-22,ls),
+(74,-31,o),
+(79,-37,o),
+(88,-37,cs),
+(203,-37,ls),
+(212,-37,o),
+(217,-31,o),
+(217,-22,cs),
+(217,510,ls),
+(217,518,o),
+(212,524,o),
+(203,524,cs),
+(88,524,ls),
+(79,524,o),
+(74,518,o),
+(74,510,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 291;
+}
+);
+note = cid00146;
+unicode = 305;
+}

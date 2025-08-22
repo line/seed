@@ -1,0 +1,47 @@
+{
+glyphname = quotesingle.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (716, 83);
+place = (716, 83);
+type = Stem;
+},
+{
+place = (649, 242);
+place = (649, 242);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(649,736,ls),
+(649,730,o),
+(653,726,o),
+(658,726,cs),
+(881,716,ls),
+(888,716,o),
+(891,719,o),
+(891,726,cs),
+(891,789,ls),
+(891,795,o),
+(888,799,o),
+(881,799,cs),
+(658,789,ls),
+(653,789,o),
+(649,785,o),
+(649,779,cs)
+);
+}
+);
+vertWidth = 292;
+width = 1000;
+}
+);
+note = cid08727;
+}

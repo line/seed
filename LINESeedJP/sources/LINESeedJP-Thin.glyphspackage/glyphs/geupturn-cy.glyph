@@ -1,0 +1,69 @@
+{
+glyphname = "geupturn-cy";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-13, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (476, 30);
+place = (476, 30);
+type = Stem;
+},
+{
+place = (93, 31);
+place = (93, 31);
+type = Stem;
+},
+{
+place = (393, 31);
+place = (393, 31);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(393,506,l),
+(101,506,ls),
+(96,506,o),
+(93,503,o),
+(93,498,cs),
+(93,-5,ls),
+(93,-10,o),
+(96,-13,o),
+(101,-13,cs),
+(116,-13,ls),
+(121,-13,o),
+(124,-10,o),
+(124,-5,cs),
+(124,476,l),
+(416,476,ls),
+(421,476,o),
+(424,479,o),
+(424,484,cs),
+(424,588,ls),
+(424,593,o),
+(421,596,o),
+(416,596,cs),
+(401,596,ls),
+(396,596,o),
+(393,593,o),
+(393,588,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 445;
+}
+);
+note = cid25705;
+unicode = 1169;
+}

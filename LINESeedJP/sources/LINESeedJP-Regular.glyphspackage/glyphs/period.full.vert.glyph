@@ -1,0 +1,47 @@
+{
+glyphname = period.full.vert;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (710, 111);
+place = (710, 111);
+type = Stem;
+},
+{
+place = (824, 115);
+place = (824, 115);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(927,710,ls),
+(935,710,o),
+(939,714,o),
+(939,722,cs),
+(939,809,ls),
+(939,817,o),
+(935,821,o),
+(927,821,cs),
+(836,821,ls),
+(828,821,o),
+(824,817,o),
+(824,809,cs),
+(824,722,ls),
+(824,714,o),
+(828,710,o),
+(836,710,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08274;
+}

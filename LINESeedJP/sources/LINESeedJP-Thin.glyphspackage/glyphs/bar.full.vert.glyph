@@ -1,0 +1,47 @@
+{
+glyphname = bar.full.vert;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (364, 31);
+place = (364, 31);
+type = Stem;
+},
+{
+place = (-9, 1018);
+place = (-9, 1018);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1000,364,ls),
+(1006,364,o),
+(1009,367,o),
+(1009,373,cs),
+(1009,386,ls),
+(1009,392,o),
+(1006,395,o),
+(1000,395,cs),
+(0,395,ls),
+(-6,395,o),
+(-9,392,o),
+(-9,386,cs),
+(-9,373,ls),
+(-9,368,o),
+(-6,364,o),
+(0,364,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07896;
+}

@@ -1,0 +1,53 @@
+{
+glyphname = cornerbracketright.vert;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (585, 30);
+place = (585, 30);
+type = Stem;
+},
+{
+place = (49, 30);
+place = (49, 30);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(79,615,l),
+(79,831,ls),
+(79,837,o),
+(76,840,o),
+(70,840,cs),
+(58,840,ls),
+(52,840,o),
+(49,837,o),
+(49,831,cs),
+(49,594,ls),
+(49,588,o),
+(52,585,o),
+(58,585,cs),
+(897,585,ls),
+(903,585,o),
+(906,588,o),
+(906,594,cs),
+(906,606,ls),
+(906,612,o),
+(903,615,o),
+(897,615,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid07912;
+unicode = 65090;
+}

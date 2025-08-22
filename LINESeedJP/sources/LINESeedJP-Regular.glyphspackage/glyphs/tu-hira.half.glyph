@@ -1,0 +1,57 @@
+{
+glyphname = "tu-hira.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (0, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (608, 64);
+place = (608, 64);
+type = Stem;
+},
+{
+place = (400, 63);
+place = (400, 63);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(137,0,l),
+(329,14,o),
+(463,127,o),
+(463,393,cs),
+(463,509,o),
+(434,672,o),
+(284,672,cs),
+(197,672,o),
+(103,628,o),
+(21,603,c),
+(37,532,l),
+(109,568,o),
+(227,608,o),
+(277,608,cs),
+(388,608,o),
+(400,472,o),
+(400,392,cs),
+(400,175,o),
+(303,77,o),
+(112,66,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00543;
+}

@@ -1,0 +1,55 @@
+{
+glyphname = "wa-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-26, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (699, 34.5);
+place = (699, 34.5);
+type = Stem;
+},
+{
+place = (81, 37);
+place = (81, 37);
+type = Stem;
+},
+{
+place = (410, 38);
+place = (410, 38);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(155,-58,l),
+(364,51,o),
+(444,266,o),
+(448,734,c),
+(81,733,l),
+(81,398,l),
+(118,398,l),
+(118,699,l),
+(410,699,l),
+(410,376,o),
+(358,67,o),
+(125,-26,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00386;
+unicode = 65436;
+}

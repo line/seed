@@ -1,0 +1,76 @@
+{
+glyphname = "tusmall-kata.half";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-10, 21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (135, 33);
+place = (135, 33);
+type = Stem;
+},
+{
+place = (246, 35);
+place = (246, 35);
+type = Stem;
+},
+{
+place = (376, 36);
+place = (376, 36);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(159,-38,l),
+(338,64,o),
+(395,276,o),
+(412,589,c),
+(376,595,l),
+(364,240,o),
+(283,68,o),
+(136,-10,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(281,338,l),
+(273,414,o),
+(257,527,o),
+(246,588,c),
+(213,583,l),
+(224,523,o),
+(241,403,o),
+(246,329,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(168,320,l),
+(158,395,o),
+(137,513,o),
+(123,572,c),
+(90,563,l),
+(104,502,o),
+(125,387,o),
+(135,310,c)
+);
+}
+);
+vertWidth = 1000;
+width = 500;
+}
+);
+note = cid00341;
+unicode = 65391;
+}

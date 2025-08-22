@@ -1,0 +1,71 @@
+{
+glyphname = leftcurlybracketmiddlepiece;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (365, 30);
+place = (365, 30);
+type = Stem;
+},
+{
+place = (485, 30);
+place = (485, 30);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (365, 15);
+place = (365, 15);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (380, 15);
+place = (380, 15);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(485,-120,l),
+(515,-120,l),
+(515,310,ls),
+(515,346,o),
+(505,376,o),
+(485,380,c),
+(505,384,o),
+(515,413,o),
+(515,450,cs),
+(515,880,l),
+(485,880,l),
+(485,456,ls),
+(485,412,o),
+(474,395,o),
+(441,395,cs),
+(410,395,ls),
+(404,395,o),
+(401,392,o),
+(401,386,cs),
+(401,374,ls),
+(401,368,o),
+(404,365,o),
+(410,365,cs),
+(441,365,ls),
+(474,365,o),
+(485,348,o),
+(485,304,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid08179;
+unicode = 9128;
+}

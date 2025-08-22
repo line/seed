@@ -1,0 +1,44 @@
+{
+glyphname = "dot-kata";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (316, 129);
+place = (316, 129);
+type = Stem;
+},
+{
+place = (435, 131);
+place = (435, 131);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(537,316,o),
+(566,343,o),
+(566,380,cs),
+(566,417,o),
+(537,445,o),
+(500,445,cs),
+(464,445,o),
+(435,417,o),
+(435,380,cs),
+(435,343,o),
+(464,316,o),
+(500,316,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00638;
+unicode = 12539;
+}

@@ -1,0 +1,47 @@
+{
+glyphname = idotless.rotat;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (756, 31);
+place = (756, 31);
+type = Stem;
+},
+{
+place = (117, 519);
+place = (117, 519);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(125,787,ls),
+(120,787,o),
+(117,784,o),
+(117,779,cs),
+(117,764,ls),
+(117,759,o),
+(120,756,o),
+(125,756,cs),
+(628,756,ls),
+(633,756,o),
+(636,759,o),
+(636,764,cs),
+(636,779,ls),
+(636,784,o),
+(633,787,o),
+(628,787,cs)
+);
+}
+);
+vertWidth = 228;
+width = 1000;
+}
+);
+note = cid08865;
+}

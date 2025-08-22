@@ -1,0 +1,61 @@
+{
+glyphname = downWhiteTriangle;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-16, 21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (724, 27);
+place = (724, 27);
+type = Stem;
+},
+{
+place = (81, 838);
+place = (81, 838);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(494,-11,ls),
+(496,-14,o),
+(498,-16,o),
+(500,-16,cs),
+(502,-16,o),
+(504,-14,o),
+(506,-11,cs),
+(918,740,ls),
+(921,746,o),
+(918,751,o),
+(911,751,cs),
+(89,751,ls),
+(82,751,o),
+(79,746,o),
+(82,740,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(125,724,l),
+(875,724,l),
+(500,37,l)
+);
+}
+);
+vertWidth = 1000;
+width = 1000;
+}
+);
+note = cid00732;
+unicode = 9661;
+}
