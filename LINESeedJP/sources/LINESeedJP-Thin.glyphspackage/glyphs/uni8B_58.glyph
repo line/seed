@@ -5,125 +5,105 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (-53, 30);
-place = (-53, 30);
+place = (-53,30);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (25, 28);
-place = (25, 28);
+place = (25,28);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (190, 29);
-place = (190, 29);
+place = (190,29);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (352, 28);
-place = (352, 28);
+place = (352,28);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (479, 28);
-place = (479, 28);
+place = (479,28);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (623, 30);
-place = (623, 30);
+place = (623,30);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (699, 29);
-place = (699, 29);
+place = (699,29);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (768, 30);
-place = (768, 30);
+place = (768,30);
 type = Stem;
 },
 {
-place = (76, 30);
-place = (76, 30);
+place = (76,30);
 type = Stem;
 },
 {
-place = (276, 30);
-place = (276, 30);
+place = (276,30);
 type = Stem;
 },
 {
-place = (395, 29);
-place = (395, 29);
+place = (395,29);
 type = Stem;
 },
 {
-place = (511, 30);
-place = (511, 30);
+place = (511,30);
 type = Stem;
 },
 {
-place = (629, 30);
-place = (629, 30);
+place = (629,30);
 type = Stem;
 },
 {
-place = (734, 28);
-place = (734, 28);
+place = (734,28);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (179, 30);
-place = (179, 30);
+place = (179,30);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (329, 30);
-place = (329, 30);
+place = (329,30);
 type = Stem;
 },
 {
-place = (610, 77);
-place = (610, 77);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (-79, 34);
-place = (-79, 34);
-type = Stem;
-},
-{
-place = (741, 27);
-place = (741, 27);
+place = (610,77);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (474, 30);
-place = (474, 30);
+place = (-79,34);
+type = Stem;
+},
+{
+place = (741,27);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (774, -20);
+place = (474,30);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (774,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (769, -20);
+place = (769,-20);
 target = down;
 type = TopGhost;
 }

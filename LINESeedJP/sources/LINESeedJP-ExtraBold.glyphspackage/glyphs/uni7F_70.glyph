@@ -5,118 +5,98 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (-77, 84);
-place = (-77, 84);
+place = (-77,84);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (158, 75);
-place = (158, 75);
+place = (158,75);
 type = Stem;
 },
 {
-place = (68, 173);
-place = (68, 173);
+place = (68,173);
 type = Stem;
 },
 {
-place = (382, 174);
-place = (382, 174);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (51, 81);
-place = (51, 81);
+place = (382,174);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (357, 90);
-place = (357, 90);
-type = Stem;
-},
-{
-place = (71, 160);
-place = (71, 160);
+place = (51,81);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (258, 74);
-place = (258, 74);
+place = (357,90);
+type = Stem;
+},
+{
+place = (71,160);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (555, -20);
+place = (258,74);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (555,-20);
 target = down;
 type = TopGhost;
 },
 {
-place = (627, 103);
-place = (627, 103);
+place = (627,103);
 type = Stem;
 },
 {
-place = (766, 172);
-place = (766, 172);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (123, 110);
-place = (123, 110);
+place = (766,172);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (471, 79);
-place = (471, 79);
-type = Stem;
-},
-{
-place = (592, 138);
-place = (592, 138);
+place = (123,110);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (471, 50);
-place = (471, 50);
+place = (471,79);
+type = Stem;
+},
+{
+place = (592,138);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (573, 106);
-place = (573, 106);
+place = (471,50);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (723, 108);
-place = (723, 108);
+place = (573,106);
 type = Stem;
 },
 {
-place = (766, 164);
-place = (766, 164);
+horizontal = 1;
+place = (723,108);
 type = Stem;
 },
 {
-place = (313, 144);
-place = (313, 144);
+place = (766,164);
 type = Stem;
 },
 {
-place = (540, 143);
-place = (540, 143);
+place = (313,144);
 type = Stem;
 },
 {
-place = (771, 159);
-place = (771, 159);
+place = (540,143);
+type = Stem;
+},
+{
+place = (771,159);
 type = Stem;
 }
 );

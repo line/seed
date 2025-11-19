@@ -1,17 +1,16 @@
 {
+color = 0;
 glyphname = macroncomb;
 layers = (
 {
 hints = (
 {
 horizontal = 1;
-place = (632, 69);
-place = (632, 69);
+place = (632,69);
 type = Stem;
 },
 {
-place = (80, 284);
-place = (80, 284);
+place = (80,284);
 type = Stem;
 }
 );
@@ -44,5 +43,5 @@ width = 444;
 }
 );
 note = cid00129;
-unicode = (175,772);
+unicode = 772;
 }

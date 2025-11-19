@@ -10,7 +10,7 @@ fonts {
   filename: "LINESeedJP-Thin.ttf"
   post_script_name: "LINESeedJP-Thin"
   full_name: "LINE Seed JP Thin"
-  copyright: "© LY Corporation"
+  copyright:"© LY Corporation"
 }
 fonts {
   name: "LINE Seed JP"

@@ -5,112 +5,92 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (-74, 120);
-place = (-74, 120);
+place = (-74,120);
 type = Stem;
 },
 {
-place = (49, 249);
-place = (49, 249);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (230, 114);
-place = (230, 114);
-type = Stem;
-},
-{
-place = (49, 89);
-place = (49, 89);
-type = Stem;
-},
-{
-place = (328, 78);
-place = (328, 78);
-type = Stem;
-},
-{
-place = (314, 69);
-place = (314, 69);
+place = (49,249);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (685, 139);
-place = (685, 139);
+place = (230,114);
+type = Stem;
+},
+{
+place = (49,89);
+type = Stem;
+},
+{
+place = (328,78);
+type = Stem;
+},
+{
+place = (314,69);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (477, 122);
-place = (477, 122);
-type = Stem;
-},
-{
-place = (421, 138);
-place = (421, 138);
+place = (685,139);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (295, 132.5);
-place = (295, 132.5);
+place = (477,122);
+type = Stem;
+},
+{
+place = (421,138);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (477, 18);
-place = (477, 18);
-type = Stem;
-},
-{
-place = (156, 142);
-place = (156, 142);
+place = (295,132.5);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (275, 152);
-place = (275, 152);
+place = (477,18);
+type = Stem;
+},
+{
+place = (156,142);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (272, 155.5);
-place = (272, 155.5);
-type = Stem;
-},
-{
-place = (792, 139);
-place = (792, 139);
-type = Stem;
-},
-{
-place = (616, 119);
-place = (616, 119);
+place = (275,152);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (98, 86);
-place = (98, 86);
+place = (272,155.5);
 type = Stem;
 },
 {
-place = (605.5, 146.5);
-place = (605.5, 146.5);
+place = (792,139);
 type = Stem;
 },
 {
-place = (603, 152);
-place = (603, 152);
+place = (616,119);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (692, 132);
-place = (692, 132);
+place = (98,86);
+type = Stem;
+},
+{
+place = (605.5,146.5);
+type = Stem;
+},
+{
+place = (603,152);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (692,132);
 type = Stem;
 }
 );

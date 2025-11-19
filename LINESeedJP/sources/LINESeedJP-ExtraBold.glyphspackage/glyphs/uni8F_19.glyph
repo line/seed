@@ -5,122 +5,101 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (-7, 21);
+place = (-7,21);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-place = (176, 118);
-place = (176, 118);
+place = (176,118);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (354, 93);
-place = (354, 93);
+place = (354,93);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (484, 151);
-place = (484, 151);
+place = (484,151);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (668, 161);
-place = (668, 161);
+place = (668,161);
 type = Stem;
 },
 {
-place = (46, 89);
-place = (46, 89);
+place = (46,89);
 type = Stem;
 },
 {
-place = (307, 81);
-place = (307, 81);
+place = (307,81);
 type = Stem;
 },
 {
-place = (422, 124);
-place = (422, 124);
+place = (422,124);
 type = Stem;
 },
 {
-place = (585, 124);
-place = (585, 124);
+place = (585,124);
 type = Stem;
 },
 {
-place = (838, 120);
-place = (838, 120);
+place = (838,120);
 type = Stem;
 },
 {
-place = (730, 228);
-place = (730, 228);
+place = (730,228);
 type = Stem;
 },
 {
-place = (730, 72);
-place = (730, 72);
+place = (730,72);
 type = Stem;
 },
 {
-place = (146, 148);
-place = (146, 148);
+place = (146,148);
 type = Stem;
 },
 {
-place = (730, 244);
-place = (730, 244);
+place = (730,244);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (504, 117);
-place = (504, 117);
+place = (504,117);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (653, 143);
-place = (653, 143);
+place = (653,143);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (1, 143);
-place = (1, 143);
+place = (1,143);
 type = Stem;
 },
 {
-place = (573, 136);
-place = (573, 136);
+place = (573,136);
 type = Stem;
 },
 {
-place = (174, 214);
-place = (174, 214);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (266, 113);
-place = (266, 113);
-type = Stem;
-},
-{
-place = (46, 220);
-place = (46, 220);
+place = (174,214);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (472, 115);
-place = (472, 115);
+place = (266,113);
+type = Stem;
+},
+{
+place = (46,220);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (472,115);
 type = Stem;
 }
 );

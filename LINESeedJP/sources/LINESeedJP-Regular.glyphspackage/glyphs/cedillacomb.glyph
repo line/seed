@@ -1,29 +1,26 @@
 {
+color = 0;
 glyphname = cedillacomb;
 layers = (
 {
 hints = (
 {
 horizontal = 1;
-place = (-267, 59);
-place = (-267, 59);
+place = (-267,59);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (-140, 141);
-place = (-140, 141);
+place = (-140,141);
 type = Stem;
 },
 {
-place = (299, 72);
-place = (299, 72);
+place = (299,72);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (-140, 56);
-place = (-140, 56);
+place = (-140,56);
 type = Stem;
 }
 );
@@ -80,5 +77,5 @@ width = 482;
 }
 );
 note = cid00134;
-unicode = (184,807);
+unicode = 807;
 }

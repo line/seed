@@ -5,119 +5,99 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (-2, 21);
+place = (-2,21);
 target = up;
 type = BottomGhost;
 },
 {
-place = (65, 56);
-place = (65, 56);
+place = (65,56);
 type = Stem;
 },
 {
-place = (162, 54);
-place = (162, 54);
+place = (162,54);
 type = Stem;
 },
 {
-place = (252, 48);
-place = (252, 48);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (-74, 64);
-place = (-74, 64);
+place = (252,48);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (266, 61);
-place = (266, 61);
+place = (-74,64);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (429, 55);
-place = (429, 55);
-type = Stem;
-},
-{
-place = (260, 60);
-place = (260, 60);
-type = Stem;
-},
-{
-place = (390, 61);
-place = (390, 61);
+place = (266,61);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (588, 55);
-place = (588, 55);
+place = (429,55);
+type = Stem;
+},
+{
+place = (260,60);
+type = Stem;
+},
+{
+place = (390,61);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (744, 62);
-place = (744, 62);
-type = Stem;
-},
-{
-place = (78, 66);
-place = (78, 66);
-type = Stem;
-},
-{
-place = (422, 10);
-place = (422, 10);
+place = (588,55);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (173, 64);
-place = (173, 64);
+place = (744,62);
 type = Stem;
 },
 {
-place = (727, 66);
-place = (727, 66);
+place = (78,66);
 type = Stem;
 },
 {
-horizontal = 1;
-place = (173, 65);
-place = (173, 65);
+place = (422,10);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (385, 64);
-place = (385, 64);
+place = (173,64);
+type = Stem;
+},
+{
+place = (727,66);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (596, 67);
-place = (596, 67);
+place = (173,65);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (-53, 68);
-place = (-53, 68);
+place = (385,64);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (459, 25);
-place = (459, 25);
+place = (596,67);
 type = Stem;
 },
 {
-place = (513, 66);
-place = (513, 66);
+horizontal = 1;
+place = (-53,68);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (459,25);
+type = Stem;
+},
+{
+place = (513,66);
 type = Stem;
 }
 );

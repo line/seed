@@ -5,56 +5,49 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (-14, 21);
+place = (-14,21);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-place = (360, 160);
-place = (360, 160);
+place = (360,160);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (785, -20);
+place = (785,-20);
 target = down;
 type = TopGhost;
 },
 {
-place = (293, 162);
-place = (293, 162);
+place = (293,162);
 type = Stem;
 },
 {
-place = (551, 138);
-place = (551, 138);
+place = (551,138);
 type = Stem;
 },
 {
-place = (795, 162);
-place = (795, 162);
+place = (795,162);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (778, -20);
+place = (778,-20);
 target = down;
 type = TopGhost;
 },
 {
-place = (292, 162);
-place = (292, 162);
+place = (292,162);
 type = Stem;
 },
 {
-place = (551, 137);
-place = (551, 137);
+place = (551,137);
 type = Stem;
 },
 {
-place = (293, 148);
-place = (293, 148);
+place = (293,148);
 type = Stem;
 }
 );

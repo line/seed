@@ -1,0 +1,47 @@
+{
+color = 0;
+glyphname = macron;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (632,69);
+type = Stem;
+},
+{
+place = (80,284);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(92,701,ls),
+(84,701,o),
+(80,698,o),
+(80,689,cs),
+(80,644,ls),
+(80,636,o),
+(84,632,o),
+(92,632,cs),
+(352,632,ls),
+(360,632,o),
+(364,636,o),
+(364,644,cs),
+(364,689,ls),
+(364,698,o),
+(360,701,o),
+(352,701,cs)
+);
+}
+);
+vertWidth = 1000;
+width = 444;
+}
+);
+note = cid00129;
+unicode = 175;
+}

@@ -5,117 +5,96 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (97, 112);
-place = (97, 112);
+place = (97,112);
 type = Stem;
 },
 {
-place = (456, 100);
-place = (456, 100);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (237, 81);
-place = (237, 81);
-type = Stem;
-},
-{
-place = (235, 148);
-place = (235, 148);
+place = (456,100);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (343, 80);
-place = (343, 80);
+place = (237,81);
+type = Stem;
+},
+{
+place = (235,148);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (505, 78);
-place = (505, 78);
+place = (343,80);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (610, 94);
-place = (610, 94);
+place = (505,78);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (736, 98);
-place = (736, 98);
+place = (610,94);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (729, 105);
-place = (729, 105);
-type = Stem;
-},
-{
-place = (62, 101);
-place = (62, 101);
-type = Stem;
-},
-{
-place = (797, 159);
-place = (797, 159);
+place = (736,98);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (507, 169);
-place = (507, 169);
+place = (729,105);
 type = Stem;
 },
 {
-place = (615, 165);
-place = (615, 165);
+place = (62,101);
 type = Stem;
 },
 {
-horizontal = 1;
-place = (610, 66);
-place = (610, 66);
-type = Stem;
-},
-{
-place = (575, 188);
-place = (575, 188);
-type = Stem;
-},
-{
-place = (257, 103);
-place = (257, 103);
+place = (797,159);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (-77, 153);
-place = (-77, 153);
+place = (507,169);
 type = Stem;
 },
 {
-place = (200, 111);
-place = (200, 111);
+place = (615,165);
 type = Stem;
 },
 {
-place = (180, 49);
-place = (180, 49);
+horizontal = 1;
+place = (610,66);
 type = Stem;
 },
 {
-place = (378, 59);
-place = (378, 59);
+place = (575,188);
 type = Stem;
 },
 {
-place = (615, 148);
-place = (615, 148);
+place = (257,103);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-77,153);
+type = Stem;
+},
+{
+place = (200,111);
+type = Stem;
+},
+{
+place = (180,49);
+type = Stem;
+},
+{
+place = (378,59);
+type = Stem;
+},
+{
+place = (615,148);
 type = Stem;
 }
 );

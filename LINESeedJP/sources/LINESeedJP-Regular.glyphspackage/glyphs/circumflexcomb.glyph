@@ -1,23 +1,21 @@
 {
+color = 0;
 glyphname = circumflexcomb;
 layers = (
 {
 hints = (
 {
 horizontal = 1;
-place = (588, 155);
-place = (588, 155);
+place = (588,155);
 type = Stem;
 },
 {
-place = (65, 306);
-place = (65, 306);
+place = (65,306);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (683, 60);
-place = (683, 60);
+place = (683,60);
 type = Stem;
 }
 );
@@ -59,5 +57,5 @@ width = 436;
 }
 );
 note = cid00128;
-unicode = (710,770);
+unicode = 770;
 }

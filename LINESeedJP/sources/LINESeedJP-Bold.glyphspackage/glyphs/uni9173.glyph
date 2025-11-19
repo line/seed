@@ -5,123 +5,103 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (-51, 100);
-place = (-51, 100);
+place = (-51,100);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (123, 86);
-place = (123, 86);
+place = (123,86);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (312, 79);
-place = (312, 79);
+place = (312,79);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (532, -20);
+place = (532,-20);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (700, 106);
-place = (700, 106);
+place = (700,106);
 type = Stem;
 },
 {
-place = (63, 84);
-place = (63, 84);
+place = (63,84);
 type = Stem;
 },
 {
-place = (277, 66);
-place = (277, 66);
+place = (277,66);
 type = Stem;
 },
 {
-place = (384, 80);
-place = (384, 80);
+place = (384,80);
 type = Stem;
 },
 {
-place = (511, 111);
-place = (511, 111);
+place = (511,111);
 type = Stem;
 },
 {
-place = (813, 111);
-place = (813, 111);
+place = (813,111);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (-74, 91);
-place = (-74, 91);
+place = (-74,91);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (73, 71);
-place = (73, 71);
+place = (73,71);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (522, 100);
-place = (522, 100);
+place = (522,100);
 type = Stem;
 },
 {
-place = (154, 84);
-place = (154, 84);
+place = (154,84);
 type = Stem;
 },
 {
-place = (286, 86);
-place = (286, 86);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (423, 100);
-place = (423, 100);
-type = Stem;
-},
-{
-place = (863, 61);
-place = (863, 61);
+place = (286,86);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (781, -20);
+place = (423,100);
+type = Stem;
+},
+{
+place = (863,61);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (781,-20);
 target = down;
 type = TopGhost;
 },
 {
-place = (184, 65);
-place = (184, 65);
+place = (184,65);
 type = Stem;
 },
 {
-place = (382, 82);
-place = (382, 82);
+place = (382,82);
 type = Stem;
 },
 {
-place = (63, 186);
-place = (63, 186);
+place = (63,186);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (191, 71);
-place = (191, 71);
+place = (191,71);
 type = Stem;
 }
 );

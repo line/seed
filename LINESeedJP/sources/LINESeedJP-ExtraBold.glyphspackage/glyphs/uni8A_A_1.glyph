@@ -5,111 +5,92 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (270, 110);
-place = (270, 110);
+place = (270,110);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (411, 111);
-place = (411, 111);
+place = (411,111);
 type = Stem;
 },
 {
-place = (58, 292);
-place = (58, 292);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (-74, 124);
-place = (-74, 124);
+place = (58,292);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (123, 117);
-place = (123, 117);
-type = Stem;
-},
-{
-place = (50, 131);
-place = (50, 131);
-type = Stem;
-},
-{
-place = (234, 125);
-place = (234, 125);
+place = (-74,124);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (-9, 21);
+place = (123,117);
+type = Stem;
+},
+{
+place = (50,131);
+type = Stem;
+},
+{
+place = (234,125);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-9,21);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-place = (240, 159);
-place = (240, 159);
+place = (240,159);
 type = Stem;
 },
 {
-place = (409, 107);
-place = (409, 107);
+place = (409,107);
 type = Stem;
 },
 {
-place = (546, 100);
-place = (546, 100);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (569, 164);
-place = (569, 164);
-type = Stem;
-},
-{
-place = (670.5, 146.5);
-place = (670.5, 146.5);
-type = Stem;
-},
-{
-place = (386, 132);
-place = (386, 132);
-type = Stem;
-},
-{
-place = (661, 164);
-place = (661, 164);
-type = Stem;
-},
-{
-place = (412, 106);
-place = (412, 106);
+place = (546,100);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (551, 130);
-place = (551, 130);
+place = (569,164);
 type = Stem;
 },
 {
-place = (30, 340);
-place = (30, 340);
+place = (670.5,146.5);
+type = Stem;
+},
+{
+place = (386,132);
+type = Stem;
+},
+{
+place = (661,164);
+type = Stem;
+},
+{
+place = (412,106);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (711, 118);
-place = (711, 118);
+place = (551,130);
 type = Stem;
 },
 {
-place = (58, 291);
-place = (58, 291);
+place = (30,340);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (711,118);
+type = Stem;
+},
+{
+place = (58,291);
 type = Stem;
 }
 );

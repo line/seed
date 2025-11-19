@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3436";
 .formatVersion = 3;
 customParameters = (
 {
@@ -9327,20 +9327,20 @@ code = "lookup SUB_2 {
 table BASE {
     HorizAxis.BaseTagList                icfb  icft  ideo  romn;
     HorizAxis.BaseScriptList
-                              kana ideo   -71   832  -120     0,
-                              grek romn   -71   832  -120     0,
-                              DFLT ideo   -71   832  -120     0,
-                              hani ideo   -71   832  -120     0,
-                              latn romn   -71   832  -120     0,
-                              cyrl romn   -71   832  -120     0;
+                              kana ideo   -67   831  -120     0,
+                              grek romn   -67   831  -120     0,
+                              DFLT ideo   -67   831  -120     0,
+                              hani ideo   -67   831  -120     0,
+                              latn romn   -67   831  -120     0,
+                              cyrl romn   -67   831  -120     0;
     VertAxis.BaseTagList                 icfb  icft  ideo  romn;
     VertAxis.BaseScriptList
-                              kana ideo    45   953     0   120,
-                              grek romn    45   953     0   120,
-                              DFLT ideo    45   953     0   120,
-                              hani ideo    45   953     0   120,
-                              latn romn    45   953     0   120,
-                              cyrl romn    45   953     0   120;
+                              kana ideo    51   949     0   120,
+                              grek romn    51   949     0   120,
+                              DFLT ideo    51   949     0   120,
+                              hani ideo    51   949     0   120,
+                              latn romn    51   949     0   120,
+                              cyrl romn    51   949     0   120;
 } BASE;";
 name = Prefix;
 }
@@ -15255,11 +15255,11 @@ fontMaster = (
 customParameters = (
 {
 name = typoAscender;
-value = 950;
+value = 932;
 },
 {
 name = typoDescender;
-value = -195;
+value = -168;
 },
 {
 name = typoLineGap;
@@ -15275,11 +15275,11 @@ value = 317;
 },
 {
 name = hheaAscender;
-value = 950;
+value = 932;
 },
 {
 name = hheaDescender;
-value = -195;
+value = -168;
 },
 {
 name = strikeoutPosition;
@@ -15301,56 +15301,56 @@ value = 76;
 name = "Alignment Zones";
 value = (
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 },
 {
-pos = "-243";
-size = "-11";
+pos = -243;
+size = -11;
 }
 );
 }

@@ -1,28 +1,25 @@
 {
+color = 0;
 glyphname = ringcomb;
 layers = (
 {
 hints = (
 {
 horizontal = 1;
-place = (565, 51);
-place = (565, 51);
+place = (565,51);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (719, 50);
-place = (719, 50);
+place = (719,50);
 type = Stem;
 },
 {
-place = (123, 55);
-place = (123, 55);
+place = (123,55);
 type = Stem;
 },
 {
-place = (278, 55);
-place = (278, 55);
+place = (278,55);
 type = Stem;
 }
 );
@@ -68,5 +65,5 @@ width = 457;
 }
 );
 note = cid00133;
-unicode = (730,778);
+unicode = 778;
 }

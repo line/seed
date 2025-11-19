@@ -5,118 +5,99 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (-16, 21);
+place = (-16,21);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-place = (284, 30);
-place = (284, 30);
+place = (284,30);
 type = Stem;
 },
 {
-place = (184, 29);
-place = (184, 29);
+place = (184,29);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (-25, 21);
+place = (-25,21);
 target = up;
 type = BottomGhost;
 },
 {
-place = (304, 28);
-place = (304, 28);
+place = (304,28);
 type = Stem;
 },
 {
-place = (324, 29);
-place = (324, 29);
+place = (324,29);
 type = Stem;
 },
 {
-place = (278, 26);
-place = (278, 26);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (620, 30);
-place = (620, 30);
-type = Stem;
-},
-{
-place = (66, 28);
-place = (66, 28);
+place = (278,26);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (441, 29);
-place = (441, 29);
+place = (620,30);
+type = Stem;
+},
+{
+place = (66,28);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (629, 29);
-place = (629, 29);
-type = Stem;
-},
-{
-place = (430, 29);
-place = (430, 29);
-type = Stem;
-},
-{
-place = (482, 30);
-place = (482, 30);
+place = (441,29);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (-63, 32);
-place = (-63, 32);
+place = (629,29);
 type = Stem;
 },
 {
-place = (430, 28);
-place = (430, 28);
+place = (430,29);
 type = Stem;
 },
 {
-place = (574, 29);
-place = (574, 29);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (-77, 31);
-place = (-77, 31);
+place = (482,30);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (235, 30);
-place = (235, 30);
+place = (-63,32);
+type = Stem;
+},
+{
+place = (430,28);
+type = Stem;
+},
+{
+place = (574,29);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (521, 29);
-place = (521, 29);
+place = (-77,31);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (672, 29);
-place = (672, 29);
+place = (235,30);
 type = Stem;
 },
 {
-place = (791, 28);
-place = (791, 28);
+horizontal = 1;
+place = (521,29);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (672,29);
+type = Stem;
+},
+{
+place = (791,28);
 type = Stem;
 }
 );

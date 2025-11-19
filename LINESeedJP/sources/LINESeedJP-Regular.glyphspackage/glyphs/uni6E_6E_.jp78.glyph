@@ -5,79 +5,66 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (-10, 21);
+place = (-10,21);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-place = (300, 58);
-place = (300, 58);
+place = (300,58);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (575, 59);
-place = (575, 59);
+place = (575,59);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (737, 65);
-place = (737, 65);
+place = (737,65);
 type = Stem;
 },
 {
-place = (330, 65);
-place = (330, 65);
+place = (330,65);
 type = Stem;
 },
 {
-place = (513, 60);
-place = (513, 60);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (-41, 65);
-place = (-41, 65);
+place = (513,60);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (139, 63);
-place = (139, 63);
-type = Stem;
-},
-{
-place = (588, 71);
-place = (588, 71);
-type = Stem;
-},
-{
-place = (854, 61);
-place = (854, 61);
-type = Stem;
-},
-{
-place = (667, 60);
-place = (667, 60);
+place = (-41,65);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (422, 56);
-place = (422, 56);
+place = (139,63);
 type = Stem;
 },
 {
-place = (664, 59);
-place = (664, 59);
+place = (588,71);
 type = Stem;
 },
 {
-place = (852, 63);
-place = (852, 63);
+place = (854,61);
+type = Stem;
+},
+{
+place = (667,60);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (422,56);
+type = Stem;
+},
+{
+place = (664,59);
+type = Stem;
+},
+{
+place = (852,63);
 type = Stem;
 }
 );
