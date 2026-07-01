@@ -1,0 +1,36 @@
+{
+glyphname = endash;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(487,264,ls),
+(495,264,o),
+(500,269,o),
+(500,277,cs),
+(500,374,ls),
+(500,382,o),
+(495,387,o),
+(487,387,cs),
+(13,387,ls),
+(5,387,o),
+(0,382,o),
+(0,374,cs),
+(0,277,ls),
+(0,269,o),
+(5,264,o),
+(13,264,cs)
+);
+}
+);
+width = 500;
+}
+);
+note = endash;
+unicode = 8211;
+}

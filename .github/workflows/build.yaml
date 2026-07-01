@@ -65,6 +65,7 @@ jobs:
         name: ${{ env.ZIP_NAME }}
         path: |
           LINESeedJP/fonts
+          LINESeedSans/fonts
           out
     outputs:
       zip_name: ${{ env.ZIP_NAME }}

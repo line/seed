@@ -1,14 +1,22 @@
 CONFIG_FILES=\
-	LINESeedJP/sources/config.yaml
+	LINESeedJP/sources/config.yaml \
+	LINESeedSans/sources/config.yaml
 METADATA_FILES=\
-	LINESeedJP/sources/METADATA.pb
+	LINESeedJP/sources/METADATA.pb \
+	LINESeedSans/sources/METADATA.pb
 SOURCES=\
 	LINESeedJP/sources/LINESeedJP-Thin.glyphspackage \
 	LINESeedJP/sources/LINESeedJP-Regular.glyphspackage \
 	LINESeedJP/sources/LINESeedJP-Bold.glyphspackage \
-	LINESeedJP/sources/LINESeedJP-ExtraBold.glyphspackage
+	LINESeedJP/sources/LINESeedJP-ExtraBold.glyphspackage \
+	LINESeedSans/sources/LINESeedSans-Thin.glyphspackage \
+	LINESeedSans/sources/LINESeedSans-Regular.glyphspackage \
+	LINESeedSans/sources/LINESeedSans-Bold.glyphspackage \
+	LINESeedSans/sources/LINESeedSans-ExtraBold.glyphspackage \
+	LINESeedSans/sources/LINESeedSans-Heavy.glyphspackage
 TTF_OUTPUTS=\
-	LINESeedJP/fonts/ttf
+	LINESeedJP/fonts/ttf \
+	LINESeedSans/fonts/ttf
 
 help:
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
@@ -21,7 +29,7 @@ build: build.stamp
 venv: venv/touchfile
 
 build.stamp: venv $(CONFIG_FILES) $(SOURCES)
-	rm -rf LINESeedJP/fonts
+	rm -rf LINESeedJP/fonts LINESeedSans/fonts
 	(for config in $(CONFIG_FILES); do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
 
 venv/touchfile: requirements.txt
