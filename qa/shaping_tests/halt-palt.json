@@ -1,0 +1,41 @@
+{
+  "configuration": {},
+  "tests": [
+    {
+      "input": "亜医囲営駅円塩",
+      "expectation": "uni4E9C|uni533B|uni56F2|uni55B6|uni99C5|uni5186|uni5869",
+      "features": { "halt": true },
+      "note": "halt is a GPOS width feature and must never substitute glyphs. Before the fix it applied the trad substitutions, turning kanji into traditional Chinese forms (亜->亞, 医->醫, 円->圓)."
+    },
+    {
+      "input": "¡ﬁ¿",
+      "expectation": "exclamdown|fi|questiondown",
+      "features": { "halt": true },
+      "note": "Second failure mode of the same bug: halt also pulled in the vertical .rotat substitutions, rotating Latin punctuation in horizontal text."
+    },
+    {
+      "input": "唖嘘欝",
+      "expectation": "uni5516|uni5618|uni6B1D",
+      "features": { "palt": true },
+      "note": "palt is a GPOS width feature and must never substitute glyphs. Before the fix it swapped in variant forms (唖->uni555E, 嘘->uni5653, 欝->uni6B1D.jp78)."
+    },
+    {
+      "input": "!?()",
+      "expectation": "exclam|question|parenleft|parenright",
+      "features": { "vhal": true },
+      "note": "vhal is a GPOS width feature and must never substitute glyphs. Before the fix it replaced proportional punctuation with fullwidth forms (! -> uniFF01)."
+    },
+    {
+      "input": "!?()",
+      "expectation": "exclam|question|parenleft|parenright",
+      "features": { "vpal": true },
+      "note": "vpal is a GPOS width feature and must never substitute glyphs. Before the fix it replaced proportional punctuation with fullwidth forms (! -> uniFF01)."
+    },
+    {
+      "input": "亜医囲営駅円塩",
+      "expectation": "uni4E9E|uni91AB|uni570D|uni71DF|uni9A5B|uni5713|uni9E7D",
+      "features": { "trad": true },
+      "note": "Positive control: trad is the feature that is *supposed* to switch to traditional forms, and it must keep working after halt/palt/vhal/vpal were cleaned up."
+    }
+  ]
+}

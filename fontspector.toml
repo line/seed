@@ -1,0 +1,9 @@
+# Fontspector configuration.
+#
+# Passed to fontspector via `--configuration` from the `test` target in the
+# Makefile, so both local runs and CI pick it up.
+#
+# The `shaping/regression` check is SKIPped unless a test directory is
+# declared here. The tests themselves live in qa/shaping_tests/.
+[shaping]
+test_directory = "qa/shaping_tests"
