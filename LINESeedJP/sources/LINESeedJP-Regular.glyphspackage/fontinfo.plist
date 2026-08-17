@@ -12781,14 +12781,6 @@ lookup SUB_21;
 tag = ordn;
 },
 {
-code = "";
-tag = halt;
-},
-{
-code = "";
-tag = vhal;
-},
-{
 code = "script DFLT;
 language dflt;
 lookup POS_3 {
@@ -12925,14 +12917,6 @@ language dflt;
 lookup POS_3;
 ";
 tag = vkrn;
-},
-{
-code = "";
-tag = palt;
-},
-{
-code = "";
-tag = vpal;
 }
 );
 fontMaster = (
