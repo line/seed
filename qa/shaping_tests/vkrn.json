@@ -11,7 +11,7 @@
       "input": "TEL",
       "expectation": "T|E|L",
       "features": { "vkrn": true },
-      "note": "Same defect on the Latin squared forms: enabling vkrn replaced TEL with the T_E_L (㏻) ligature."
+      "note": "Same defect on the Latin ligature forms: enabling vkrn replaced TEL with the T_E_L ligature glyph. T_E_L is unencoded — it is not ℡ U+2121, which this font produces from lowercase \"Tel\"."
     },
     {
       "input": "株式会社",
@@ -23,7 +23,7 @@
       "input": "TEL",
       "expectation": "T_E_L",
       "features": { "dlig": true },
-      "note": "Positive control for the Latin squared forms under their correct dlig tag."
+      "note": "Positive control for the Latin ligature forms under their correct dlig tag."
     }
   ]
 }
