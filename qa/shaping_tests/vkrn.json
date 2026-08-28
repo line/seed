@@ -1,0 +1,29 @@
+{
+  "configuration": {},
+  "tests": [
+    {
+      "input": "株式会社",
+      "expectation": "uni682A|uni5F0F|uni4F1A|uni793E",
+      "features": { "vkrn": true },
+      "note": "vkrn is a GPOS vertical-kerning feature and must never substitute glyphs. Before the fix it carried an exact copy of the dlig ligature rules, so enabling vkrn collapsed 株式会社 into the ㍿ (uni337F) ligature."
+    },
+    {
+      "input": "TEL",
+      "expectation": "T|E|L",
+      "features": { "vkrn": true },
+      "note": "Same defect on the Latin ligature forms: enabling vkrn replaced TEL with the T_E_L ligature glyph. T_E_L is unencoded — it is not ℡ U+2121, which this font produces from lowercase \"Tel\"."
+    },
+    {
+      "input": "株式会社",
+      "expectation": "uni337F",
+      "features": { "dlig": true },
+      "note": "Positive control: the squared-form ligatures are correctly tagged dlig, and dropping the duplicated vkrn record must not remove them."
+    },
+    {
+      "input": "TEL",
+      "expectation": "T_E_L",
+      "features": { "dlig": true },
+      "note": "Positive control for the Latin ligature forms under their correct dlig tag."
+    }
+  ]
+}
